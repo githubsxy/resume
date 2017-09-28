@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拾忆</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/iscroll.js"></script>
+	<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/swiper.js" ></script>
+	<link rel="stylesheet" href="../../../模版/拾忆/css/index.css">
+</head>
+<script type="text/javascript">
+
+    var myScroll;
+
+    function loaded () {
+        myScroll = new IScroll('#wrapper', {
+            scrollbars: false,
+            mouseWheel: true,
+            interactiveScrollbars: true,
+            shrinkScrollbars: 'scale',
+            fadeScrollbars: true,
+            click:true
+        });
+    }
+
+</script>
+<body onload="loaded()">
+	
+    <!--头部开始-->
+    <header id="header">
+        <a href="javascript:;" class="position">
+            <img src="../img/sxy/sxy-map.png" alt="">
+        </a>
+        <div class="search">
+        	<a href="javascript:;"><img src="../img/sxy/sxy-sou.png" alt="" /></a>
+            <form action="">
+                <input type="text" placeholder="search...">
+				<!-- 加入搜索页链接，点击搜索框即跳转 -->
+				<script>
+				$(function(){
+					var search=$('header input[type=text]');
+					search.focus(function(){
+						location.href='https://htmlpreview.github.io/?https://github.com/shiyi207/shiyi/blob/master/html/zl-sousuo1.html'
+						// 	location.href='zl-sousuo1.html'	
+					})
+				})
+				</script>
+            </form>
+            <a href="javascript:;"><img src="../img/sxy/sxy1.png" alt="" /></a>
+        </div>
+        <a href="javascript:;" class="position">
+            <img src="../img/sxy/sxy-car.png">
+        </a>
+    </header>
+    <!--头部结束-->
+
+	<div id="wrapper">
+	<div id="scroller">
+        	<!--banner开始-->
+        		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<img src="../img/sxy/sxy-ban1.png" class="swiper-slide" style="width:620">
+				<img src="../img/sxy/sxy-ban2.png" class="swiper-slide">
+				<img src="../img/sxy/sxy-ban3.png" class="swiper-slide">
+				<img src="../img/sxy/sxy-ban4.png" class="swiper-slide">
+			</div>
+		</div>
+		<!-- Initialize Swiper -->
+		<script>
+            var swiper = new Swiper('.swiper-container', {
+                paginationClickable: true,
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false
+            });
+		</script>
+        	<!--banner结束-->
+        	<!--个人信息开始-->
+        	<div class="sxy-person">
+        		<img src="../img/sxy/sxy-img.png" alt="" />
+        		<div class="sxy-name">
+        			<p>唐纳•卡兰</p>
+        			<img src="../img/sxy/biao.png" alt="" />
+        			<span>2017 1.26</span>
+        			<span>&nbsp;&nbsp;&nbsp;&nbsp;by louis.Liu for userinterface</span>
+        		</div>
+   				<img src="../img/sxy/star.png" alt="" />
+        	</div>
+        	<!--个人信息结束-->
+			<!--功能按钮开始-->
+			<div class="sxy-fun">
+				<a href="ly3.html"><img src="../img/sxy/gong.png" alt="" /></a>
+				<a href="sxy-auction.html"><img src="../img/sxy/pai.png" alt="" /></a>
+				<a href="sxy-change.html"><img src="../img/sxy/zhi.png" alt="" /></a>
+				<a href="zhc-Sign.html"><img src="../img/sxy/qian.png" alt="" /></a>
+			</div>
+			<!--按钮结束-->
+			<!--推荐开始-->
+			<div class="remmend">
+				<a href="javascript:;"><img src="../img/sxy/tui.png" alt="" /></a>
+				<a href="javascript:;"><img src="../img/sxy/fujin.png" alt="" /></a>
+			</div>
+			<div class="sxy-remmend">
+				<div class="bg">
+					<a href="javascript:;" class="sxy-top"><img src="../img/sxy/sxy-top.png" alt="" /></a>
+					<a href="sxy-detail.html">
+						<img src="../img/sxy/sxy-t1.png" alt="" class="sxy-product"/>
+						<div class="sxy-content">
+							<p><span>香奈儿</span><span>斜挎背包</span></p>
+							<img src="../img/sxy/yiwu-dian.png" alt="" />
+							<div><span>Cha3nel</span><span>&nbsp;&nbsp;&nbsp;backpack</span></div>
+							<pre>曾经和朋友一起仰望星空，随之我们泪流满面， <br>他是因为失恋，我则是因为扭伤了脖子。</pre>
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+						</div>
+					</a>
+				</div>
+				<div class="bg">
+					<a href="sxy-detail.html">
+						<img src="../img/sxy/sxy-t2.png" alt=""  class="sxy-product"/>
+						<img src="../img/sxy/sxy-discount.png" alt="" class="sxy-discount"/>
+						<div class="sxy-content">
+							<p><span>香奈儿</span><span>斜挎背包</span></p>
+							<img src="../img/sxy/yiwu-dian.png" alt="" />
+							<div><span>Cha3nel</span><span>&nbsp;&nbsp;&nbsp;backpack</span></div>
+							<pre>曾经和朋友一起仰望星空，随之我们泪流满面， <br>他是因为失恋，我则是因为扭伤了脖子。</pre>
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+						</div>
+					</a>
+				</div>
+				<div class="bg">
+					<a href="sxy-detail.html">
+						<img src="../img/sxy/sxy-t3.png" alt=""  class="sxy-product"/>
+						<img src="../img/sxy/sxy-new.png" alt="" class="sxy-discount"/>
+						<div class="sxy-content">
+							<p><span>香奈儿</span><span>斜挎背包</span></p>
+							<img src="../img/sxy/yiwu-dian.png" alt="" />
+							<div><span>Cha3nel</span><span>&nbsp;&nbsp;&nbsp;backpack</span></div>
+							<pre>曾经和朋友一起仰望星空，随之我们泪流满面， <br>他是因为失恋，我则是因为扭伤了脖子。</pre>
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!--推荐结束-->
+			<!--宫格开始-->
+			<div class="sxy-gong">
+				<img src="../img/sxy/sxy-bgban.png" alt="" class="gird"/>
+				<div class="sxy-gong-content">
+					<div class="sxy-bg-rect">
+						<a href="javascript:;">
+							<img src="../img/sxy/sxy-bao1.png" alt="" />
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+							<div><span>Baide</span><span>Conction</span></div>
+						</a>
+						<div class="sxy-love">
+							<a href="sxy-comments">
+								<img src="../img/sxy/sxy-collection.png" alt="" />
+								<div>
+									<p>comments</p>
+									<p>5694</p>
+								</div>
+							</a>
+							<a href="sxy-collection">
+								<img src="../img/sxy/sxy-zan.png" alt="" />
+								<div>
+									<p>collection</p>
+									<p>5694</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="sxy-bg-rect">
+						<a href="javascript:;">
+							<img src="../img/sxy/sxy-bao2.png" alt="" />
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+							<div><span>Baide</span><span>Conction</span></div>
+						</a>
+						<div class="sxy-love">
+							<a href="sxy-comments">
+								<img src="../img/sxy/sxy-collection.png" alt="" />
+								<div>
+									<p>comments</p>
+									<p>5694</p>
+								</div>
+							</a>
+							<a href="sxy-collection">
+								<img src="../img/sxy/sxy-zan.png" alt="" />
+								<div>
+									<p>collection</p>
+									<p>5694</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="sxy-bg-rect">
+						<a href="javascript:;">
+							<img src="../img/sxy/sxy-bao3.png" alt="" />
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+							<div><span>Baide</span><span>Conction</span></div>
+						</a>
+						<div class="sxy-love">
+							<a href="sxy-comments">
+								<img src="../img/sxy/sxy-collection.png" alt="" />
+								<div>
+									<p>comments</p>
+									<p>5694</p>
+								</div>
+							</a>
+							<a href="sxy-collection">
+								<img src="../img/sxy/sxy-zan.png" alt="" />
+								<div>
+									<p>collection</p>
+									<p>5694</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="sxy-bg-rect">
+						<a href="javascript:;">
+							<img src="../img/sxy/sxy-bao4.png" alt="" />
+							<h3><span>563.00</span><span>&nbsp;&nbsp;RMB</span></h3>
+							<div><span>Baide</span><span>Conction</span></div>
+						</a>
+						<div class="sxy-love">
+							<a href="sxy-comments">
+								<img src="../img/sxy/sxy-collection.png" alt="" />
+								<div>
+									<p>comments</p>
+									<p>5694</p>
+								</div>
+							</a>
+							<a href="sxy-collection">
+								<img src="../img/sxy/sxy-zan.png" alt="" />
+								<div>
+									<p>collection</p>
+									<p>5694</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--宫格结束-->
+        </div>
+    </div>
+    <!--底部开始-->
+    <footer id="footer">
+		<a href="index.html"><img src="../img/sxy/shou1.png" alt="" /></a>
+		<a href="javascript:;" class="active"><img src="../img/sxy/shou2.png" alt=""/></a>
+		<a href="sxy-menu.html"><img src="../img/sxy/fen2.png" alt="" /></a>
+		<a href="javascript:;" class="active"><img src="../img/sxy/fen1.png" alt="" /></a>
+		<a href="ly1.html"><img src="../img/sxy/cam2.png" alt="" /></a>
+		<a href="javascript:;"  class="active"><img src="../img/sxy/cam1.png" alt=""/></a>
+		<a href="zhc-mess.html"><img src="../img/sxy/mess2.png" alt="" /></a>
+		<a href="zhc-mess.html"  class="active"><img src="../img/sxy/mess1.png" alt=""/></a>
+		<a href="denglu.html"><img src="../img/sxy/my2.png" alt="" /></a>
+		<a href="javascript:;"  class="active"><img src="../img/sxy/my1.png" alt=""/></a>
+    </footer>
+    <!--底部结束-->
+</body>
+</html>

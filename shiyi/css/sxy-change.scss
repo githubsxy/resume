@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+//头部
+header{
+    width: 100%;
+    height: 1.82rem; 
+    background-color: #f62466; 
+    padding: 0 0.2rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    .header-top{
+        width: 7.1rem;
+        height: 0.63rem;
+        display: flex;
+        justify-content: space-between;
+        .sxy-paimai{
+        width: 2.25rem;
+        height: 0.63rem;
+        margin-top: 0.3rem;
+        }
+        a{
+        display: block;
+            img{
+                width: 0.5rem;
+                margin-top: 0.3rem;
+            }
+        }
+    }
+    
+}
+header .search{
+    width: 5rem;
+    height: 0.48rem;
+    box-shadow: 0 0 0.05rem 0 #f2d6dc;
+    border-radius: .8rem;
+    background-color: #fff;
+    margin: 0.4rem auto;
+    position: relative;
+}
+header .search form{
+    width: 4rem;
+    height: 0.37rem;
+}
+header .search input{
+    width: 4rem;
+    height: 0.37rem;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.05rem;
+    color: #757575;
+}
+header .search >a:first-child{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    left: 0.03rem;
+    top: 0.04rem;
+    display: block;
+    z-index: 10;
+}
+header .search >a:first-child img{
+    width: 100%;
+}
+header .search >a:last-child{
+    width: 0.39rem;
+    height: 0.39rem;
+    position: absolute;
+    right: 0.05rem;
+    top: 0.05rem;
+    display: block;
+    z-index: 100;
+}
+header .search >a:last-child img{
+    width: 100%;
+}
+//精品推荐
+.sxy-recommend{
+    margin-top: 1.82rem;
+    width: 100%;
+    .sxy-recom-title{
+        width: 7.5rem;
+        margin-top: 0.2rem;
+        img{
+            width: 100%;
+        }
+    }
+    .sxy-recom-img{
+        width: 100%;
+        padding: 0 0.25rem;
+        height: 3.62rem;
+        margin-top: 0.2rem;
+        .recom-img-left{
+            width: 3.52rem;
+            height: 3.62rem;
+            float: left;
+            img{
+                width: 3.52rem;
+                margin-bottom: 0.1rem;
+            }
+        }
+        .recom-img-right{
+            margin-left: 0.1rem;
+            width: 3.38rem;
+            height: 3.62rem;
+            float: left;
+            .img-right-top{
+                width: 100%;
+                height: 1.16rem;
+                margin-bottom: 0.1rem;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 1.06rem;
+                }
+            }
+            .img-right-bot{
+                width: 100%;
+                height: 2.46rem;
+                margin-bottom: 0.1rem;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    height: 2.36rem;
+                }
+            }
+        }
+    }
+}
+//忆物推荐
+.sxy-recall{
+    width: 100%;
+    .sxy-recall-title{
+        width: 7.5rem;
+        margin-top: 0.2rem;
+        img{
+            width: 100%;
+        }
+    }
+    .recall-list{
+        width: 100%;
+        padding: 0 0.2rem;
+        height: auto;
+        margin-top: 0.2rem;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            width: 3.46rem;
+            li{
+                background-color: #fff;
+                margin-bottom: 0.2rem;
+                position: relative;
+                a{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.recall-list-left{
+    .sxy-one{
+        width: 3.46rem;
+        height: 4.38rem;
+        border-radius: 8%;
+    }
+    .sxy-two{
+        width: 3.46rem;
+        height: 3.67rem;
+        border-radius: 8%;
+    }
+    .sxy-three{
+        width: 3.46rem;
+        height: 5.58rem;
+        border-radius: 8%;
+    }
+}
+.recall-list-right{
+    .sxy-one1{
+        width: 3.46rem;
+        height: 5.11rem;
+        border-radius: 8%;
+    }
+    .sxy-two1{
+        width: 3.46rem;
+        height: 4.22rem;
+        border-radius: 8%;
+    }
+    .sxy-three1{
+        width: 3.46rem;
+        height: 3.67rem;
+        border-radius: 8%;
+    }
+}
+.sxy-sign{
+    width: 0.7rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.recall-product{
+    width: 3.46rem;
+    margin-top: -0.2rem;
+}
+.sxy-list-mess{
+    width: 100%;
+    text-align: center;
+    .money{
+        font-size: 0.28rem;
+        span:first-child{
+            color:#f81e3d;
+        }
+        span:last-child{
+            font-size: 0.18rem;
+            color:#b6b6b6;
+        }
+    }
+    .ename{
+        font-size: 0.3rem;
+        span:first-child{
+            color:#3f4247;
+            font-weight: bold;
+        }
+        span:last-child{
+            color:#3f4247;
+        }
+    }
+    .sxy-dian{
+        width: 1.6rem;
+    }
+    .cname{
+        font-size: 0.24rem;
+        span:first-child{
+            color:#3f4247;
+            font-weight: 500;
+        }
+        span:last-child{
+            color:#3f4247;
+        }
+    }
+    
+}
+.dianzan{
+    width: 0.32rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.1rem;  
+}

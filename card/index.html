@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+            list-style: none;
+        }
+        body{
+            background-image: url("img/bigbg.jpg");
+            background-size: cover;
+        }
+        .box{
+            width: 700px;
+            height: 600px;
+            margin: 50px auto 0 auto;
+            position: relative;
+        }
+        button{
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            position: absolute;
+            left:50%;
+            margin-left: -60px;
+            border: none;
+            outline: none;
+        }
+        .left{
+            background-color: skyblue;
+            bottom: 20px;
+        }
+        .right{
+            background-color: rosybrown;
+            bottom: 70px;
+        }
+        .card{
+            width:90px;
+            height: 130px;
+            position: absolute;
+            left:300px;
+            opacity:0;
+            background-size: 100%;
+        }
+        .active{
+            border:1px solid red;
+            box-sizing: border-box;
+            margin-top: -20px;
+            transition: margin-top .4s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+
+        </ul>
+        <button class="right">&gt;</button>
+        <button class="left">&lt;</button>
+    </div>
+</body>
+</html>

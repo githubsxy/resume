@@ -1,0 +1,293 @@
+html, body {
+  background: #f7f7f7;
+  height: 100%; }
+
+.zhc-header {
+  width: 100%;
+  height: 1rem;
+  background: #e21f56; }
+  .zhc-header .zhc-headerbottom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #f62466;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2; }
+    .zhc-header .zhc-headerbottom span {
+      display: block;
+      width: 1.66rem;
+      height: 0.88rem;
+      float: left; }
+      .zhc-header .zhc-headerbottom span img {
+        width: 100%; }
+    .zhc-header .zhc-headerbottom a {
+      display: block;
+      width: 0.66rem;
+      height: 0.5rem;
+      float: left; }
+      .zhc-header .zhc-headerbottom a img {
+        height: 100%; }
+
+.zhc-preson {
+  width: 100%;
+  height: 2.4rem;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  margin-top: 0.3rem; }
+  .zhc-preson > div {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center; }
+    .zhc-preson > div a {
+      display: block;
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-left: 0.36rem; }
+      .zhc-preson > div a img {
+        width: 100%; }
+    .zhc-preson > div p {
+      width: 100%;
+      height: 0.4rem;
+      font-size: 0.28rem;
+      color: #222; }
+    .zhc-preson > div span {
+      display: block;
+      font-size: 0.2rem;
+      color: #787881;
+      width: 100%;
+      height: 0.4rem;
+      line-height: 0.4rem;
+      font-family: helvetica; }
+
+.zhc-search {
+  width: 100%;
+  height: 0.76rem;
+  margin: 0.4rem 0;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative; }
+  .zhc-search input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 5.8rem;
+    padding-left: 0.6rem;
+    font-size: 0.24rem;
+    color: #787881;
+    border: 0.04rem solid #f62466;
+    border-radius: 1rem;
+    outline: none; }
+  .zhc-search a:nth-of-type(1) {
+    width: 0.36rem;
+    height: 0.32rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem; }
+    .zhc-search a:nth-of-type(1) img {
+      width: 100%;
+      height: 100%; }
+  .zhc-search a:nth-of-type(2) {
+    width: 0.5rem;
+    height: 0.48rem;
+    position: absolute;
+    top: 0.16rem;
+    right: 1rem; }
+    .zhc-search a:nth-of-type(2) img {
+      width: 100%;
+      height: 100%; }
+
+.zhc-actrile {
+  width: 100%;
+  padding: 0 0.48rem;
+  height: auto;
+  box-sizing: border-box; }
+  .zhc-actrile .zhc-actop {
+    width: 100%;
+    height: 0.86rem; }
+    .zhc-actrile .zhc-actop p {
+      float: left;
+      width: 2.6rem;
+      height: 0.86rem; }
+      .zhc-actrile .zhc-actop p img {
+        height: 100%; }
+    .zhc-actrile .zhc-actop h6 {
+      float: right;
+      height: 0.86rem;
+      width: 1.2rem;
+      line-height: 1.2rem;
+      font-size: 0.6rem;
+      color: #c3d9ff;
+      font-weight: 200;
+      text-align: center; }
+  .zhc-actrile .zhc-list {
+    width: 100%;
+    height: auto; }
+    .zhc-actrile .zhc-list ul {
+      width: 100%;
+      height: auto; }
+      .zhc-actrile .zhc-list ul h3 {
+        margin-top: 0.1rem;
+        height: 0.6rem;
+        width: 100%;
+        line-height: 0.72rem; }
+        .zhc-actrile .zhc-list ul h3 span:first-child {
+          font-size: 0.28rem;
+          color: #20202b;
+          font-weight: 100; }
+        .zhc-actrile .zhc-list ul h3 span:last-child {
+          margin-left: 0.4rem;
+          font-size: 0.28rem;
+          color: #20202b;
+          font-weight: 100; }
+      .zhc-actrile .zhc-list ul li {
+        width: 100%;
+        height: 1rem;
+        background: #fff;
+        border-radius: 0.08rem;
+        margin-bottom: 0.1rem;
+        position: relative; }
+        .zhc-actrile .zhc-list ul li div:first-child {
+          float: left;
+          width: 1rem;
+          height: 1rem; }
+          .zhc-actrile .zhc-list ul li div:first-child a {
+            float: left;
+            display: block;
+            height: 0.8rem;
+            width: 0.8rem;
+            border-radius: 50%;
+            margin-top: 0.1rem;
+            margin-left: 0.1rem;
+            background: url(../img/zhc/zhc-list1_03.png);
+            background-position: center; }
+            .zhc-actrile .zhc-list ul li div:first-child a img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%; }
+        .zhc-actrile .zhc-list ul li div:last-child {
+          float: left;
+          width: 5.28rem;
+          height: 100%; }
+          .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left {
+            float: left;
+            width: 50%;
+            height: 100%;
+            position: relative;
+            padding-left: 0.1rem;
+            box-sizing: border-box; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-shufenge {
+              width: 0.04rem;
+              height: 0.56rem;
+              position: absolute;
+              top: 0.2rem;
+              left: -0.04rem;
+              background: url(../img/zhc/zhc-shufenge_30.png);
+              background-size: contain; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-top {
+              width: 100%;
+              height: 0.4rem;
+              display: flex;
+              align-items: center; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-top span {
+                font-size: 0.28rem;
+                color: #717171; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-top b {
+                font-size: 0.28rem;
+                color: #717171; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-top img {
+                width: 0.54rem;
+                height: 0.24rem;
+                margin-left: 0.1rem; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-mde {
+              float: left;
+              width: 100%;
+              height: 0.28rem; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-mde img {
+                width: 0.26rem;
+                height: 0.24rem; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-btm {
+              width: 100%;
+              height: 0.32rem;
+              line-height: 0.32rem;
+              display: flex;
+              align-items: center; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-btm span {
+                color: #adadad;
+                font-size: 0.24rem;
+                font-weight: 100;
+                margin-left: 0.1rem; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-le-btm i {
+                color: #bebebe;
+                font-size: 0.24rem;
+                font-style: normal;
+                margin-left: 0.1rem; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-fengexian {
+              width: 80%;
+              height: 0.06rem;
+              position: absolute;
+              top: 0.16rem;
+              left: 0.1rem; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-left .zhc-fengexian img {
+                line-height: 1px;
+                width: 100%; }
+          .zhc-actrile .zhc-list ul li div:last-child .zhc-li-right {
+            float: left;
+            width: 50%;
+            height: 100%;
+            position: relative;
+            overflow: hidden; }
+            .zhc-actrile .zhc-list ul li div:last-child .zhc-li-right p {
+              position: absolute;
+              right: -1.6rem;
+              bottom: 0;
+              width: 100%;
+              height: 100%;
+              line-height: 0.5rem;
+              text-align: center;
+              transition: right 0.2s linear; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-right p i {
+                display: inline-block;
+                width: 0.6rem;
+                height: 0.6rem;
+                margin-top: 0.2rem;
+                background: url(../img/zhc/zhc-icon10_06.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: none; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-right p span {
+                display: inline-block;
+                width: 0.6rem;
+                height: 0.6rem;
+                margin-top: 0.2rem;
+                background: url(../img/zhc/zhc-iphone_33.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat; }
+              .zhc-actrile .zhc-list ul li div:last-child .zhc-li-right p img {
+                width: 0.6rem;
+                height: 0.6rem;
+                margin-top: 0.2rem; }
+
+.zhc-asdie {
+  width: 0.4rem;
+  height: auto;
+  position: fixed;
+  top: 7.2rem;
+  right: 0.28rem; }
+  .zhc-asdie li {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c; }
+  .zhc-asdie .zhc-active {
+    color: #333; }

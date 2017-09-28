@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>珍品拍卖</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    	<meta name="x5-orientation" content="portrait | landscape" />
+    	<meta name="screen-orientation" content="portrait">
+    	<meta name="x5-fullscreen" content="true" />
+    	<meta name="full-screen" content="yes">
+    	<meta name="format-detection" content="telephone=no, email=no" />
+   		<link rel="stylesheet" href="../css/common.css">
+    	<link rel="stylesheet" href="../css/sxy-auction.css">
+    	<script src="../js/common.js"></script>
+    	<script type="text/javascript" src="../js/iscroll.js" ></script>
+    	<script type="text/javascript">
+
+		var myScroll;
+		
+		function loaded () {
+			myScroll = new IScroll('#wrapper', {
+				scrollbars: false,
+				mouseWheel: true,
+				interactiveScrollbars: true,
+				shrinkScrollbars: 'scale',
+				fadeScrollbars: true,
+				click:true
+			});
+		}
+
+</script>
+	</head>
+	<style type="text/css">
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+	height: 100%;
+}
+
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	height: 100%;
+	font-size: 12px;
+	font-family: ubuntu, helvetica, arial;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #CD235C;
+	padding: 0;
+	color: #eee;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 45px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #f7f7f7;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+</style>
+	<body onload="loaded()">
+		<div class="sxy-header" id="header">
+			<!--头部-->
+			<header>
+				<a href="../html/index.html" class="sxy-return"><img src="../img/sxy/sxy-return.png" alt="" /></a>
+				<img src="../img/sxy/sxy-paimai.png" alt="" class="sxy-paimai"/>
+				<a href="" class="sxy-return"><img src="../img/sxy/sxy-tab.png" alt="" /></a>
+			</header>
+			<!--倒计时-->
+			<div class="sxy-time">
+				<img src="../img/sxy/sxy-dao.png" alt="" class="sxy-time-title"/>
+				<div class="sxy-data">12</div>
+				<img src="../img/sxy/sxy-mao.png" alt="" class="sxy-mao"/>
+				<div class="sxy-data">35</div>
+				<img src="../img/sxy/sxy-mao.png" alt="" class="sxy-mao"/>
+				<div class="sxy-data">48</div>
+			</div>
+		</div>
+	<div id="wrapper">
+	<div id="scroller">
+		<!--轮播图-->
+		<img src="../img/sxy/sxy-lb1.png" alt="" class="sxy-lb"/>
+		<!--个人信息-->
+		<div class="sxy-infor">
+			<div class="sxy-name">
+				<p>DONNA</p>
+				<h6>KARANDONNA</h6>
+				<h5>唐纳•卡兰</h5>
+				<img src="../img/sxy/sxy-dian.png" alt="" />
+			</div>
+			<div class="sxy-stars">
+				<img src="../img/sxy/sxy-cup.png" alt="" />
+				<img src="../img/sxy/sxy-cup.png" alt="" />
+				<img src="../img/sxy/sxy-cup.png" alt="" />
+				<img src="../img/sxy/sxy-cup.png" alt="" />
+			</div>
+			<img src="../img/sxy/sxy-photo.png" alt="" class="sxy-photo"/>
+		</div>
+		<div class="sxy-sale">
+			<div class="sxy-mai">
+				<div class="chu">9次出价</div>
+				<div class="paimai">限量拍卖</div>
+			</div>
+			<div class="sxy-data">
+				<a href="" class="sxy-hobby">
+					<img src="../img/sxy/sxy-hobby1.png" alt="" />
+					<h1 id="sxy-shu">360</h1>
+				</a>
+				<a href="" class="sxy-hobby">
+					<img src="../img/sxy/sxy-hobby1.png" alt="" />
+					<h1 id="sxy-shu">236</h1>
+				</a>
+				<a href="" class="sxy-hobby">
+					<img src="../img/sxy/sxy-hobby1.png" alt="" />
+					<h1 id="sxy-shu">20</h1>
+				</a>
+			</div>
+		</div>
+		<div class="sxy-rmb">
+			<h4>264.</h4><h5>00</h5>
+			<p>RMB</p>
+		</div>
+		<!--忆物推荐-->
+		<div class="sxy-yiwu">
+			<img src="../img/sxy/yiwu-title.png" alt="" class="yiwu-title" />
+			<a href=""class="sxy-reload"><img src="../img/sxy/yiwu-reload.png" alt="" /></a>
+		</div>
+		<div class="yiwu-content">
+			<img src="../img/sxy/sxy-ban2.png" alt="" class="yiwu-bg"/>
+		</div>
+		<div class="yiwu-bgrect">
+			<img src="../img/sxy/yiwu-bg.png" alt="" />
+			<div class="sxy-bg-content">
+				<div class="yiwu-left">
+					<div class="yiwu-ka"><p>卡兰迪</p><p>迷你小相机</p></div>
+					<img src="../img/sxy/yiwu-dian.png" alt="" />
+					<pre>曾经和朋友一起仰望星空，随之我们 <br>他是因为失恋，我则是因为</pre>
+					<div class="yiwu-posi">
+						<img src="../img/sxy/yiwu-posi.png" alt="" />
+						<p>北京·海淀</p>
+					</div>
+					<div class="yiwu-posi">
+						<img src="../img/sxy/yiwu-liao.png" alt="" />
+						<p>2368</p>
+					</div>
+				</div>
+				<div class="yiwu-right">
+					<img src="../img/sxy/yiwi-pho.png" alt="" />
+					<div><p>Jim.</p><p>Green</p></div>
+					<div class="xing">
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yiwu-content">
+			<img src="../img/sxy/sxy-ban3.png" alt="" class="yiwu-bg"/>
+		</div>
+		<div class="yiwu-bgrect">
+			<img src="../img/sxy/yiwu-bg.png" alt="" />
+			<div class="sxy-bg-content">
+				<div class="yiwu-left">
+					<div class="yiwu-ka"><p>卡兰迪</p><p>迷你小相机</p></div>
+					<img src="../img/sxy/yiwu-dian.png" alt="" />
+					<pre>曾经和朋友一起仰望星空，随之我们 <br>他是因为失恋，我则是因为</pre>
+					<div class="yiwu-posi">
+						<img src="../img/sxy/yiwu-posi.png" alt="" />
+						<p>北京·海淀</p>
+					</div>
+					<div class="yiwu-posi">
+						<img src="../img/sxy/yiwu-liao.png" alt="" />
+						<p>2368</p>
+					</div>
+				</div>
+				<div class="yiwu-right">
+					<img src="../img/sxy/yiwi-pho.png" alt="" />
+					<div><p>Jim.</p><p>Green</p></div>
+					<div class="xing">
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+						<img src="../img/sxy/sxy-xing.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</body>
+</html>

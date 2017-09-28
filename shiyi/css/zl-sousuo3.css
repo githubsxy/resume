@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@font-face{
+  font-family: '三番';
+  src:url(../font/SF Grandezza Medium.ttf);
+}
+* {
+  font-family: '三番';
+}
+
+div.zl-page {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 1rem;
+  background: #fafafa;
+}
+
+
+div.zl-caption1 {
+  width: 100%;
+  height: 1.65rem;
+  background: url(../img/zl/sousuo-3_08.png) no-repeat 0 0;
+  background-size: auto 100%;
+  margin-bottom: 0.1rem;
+}
+
+div.zl-caption2 {
+  width: 100%;
+  height: 1.65rem;
+  background: url(../img/zl/sousuo-3_11.png) no-repeat 0 0;
+  background-size: auto 100%;
+}
+
+div.zl-result {
+  height: 1.06rem;
+  width: 7.06rem;
+  margin: 0.3rem auto 0.22rem auto;
+}
+
+div.zl-result img {
+  display: block;
+  float: left;
+  width: 6rem;
+  height: 1.06rem;
+}
+
+div.zl-result span {
+  display: block;
+  float: right;
+  width: 1.06rem;
+  height: 1.06rem;
+}
+
+div.zl-result span img {
+  display: block;
+  width: 100%;
+}
+
+div.zl-banner {
+  width: 100%;
+  height: 3.28rem;
+  margin-bottom: 0.25rem;
+}
+
+div.zl-banner ul li {
+  width: 2.4rem;
+  height: 100%;
+  background: white;
+  position: relative;
+}
+
+div.zl-banner ul li h6 {
+  width: 0.5rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: url(../img/zl/sousuo-24_07.png);
+  background-size: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: -0.03rem;
+  margin-top: 0.15rem;
+  color: white;
+  font-size: 0.14rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+div.zl-banner ul li a {
+  display: block;
+  height: 239;
+}
+
+div.zl-banner ul li a img {
+  width: 100%;
+}
+
+div.zl-banner ul li p:first-of-type {
+  height: 0.36rem;
+  line-height: 0.36rem;
+  color: #f81e3d;
+  font-size: 0.28rem;
+  text-align: center;
+}
+
+div.zl-banner ul li p:first-of-type span {
+  color: #b6b6b6;
+  font-family: '三番';
+  font-size: 0.18rem;
+}
+
+div.zl-banner ul li p:last-of-type {
+  height: 0.34rem;
+  line-height: 0.34rem;
+  color: #3f4247;
+  text-align: center;
+  font-size: 0.30rem;
+}
+
+div.zl-banner ul li p:last-of-type b {
+  font-size: 0.30rem;
+}
+
+div.zl-banner ul li div.zl-mark {
+  height: 0.57rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.zl-sxy-remmend {
+  width: 100%;
+}
+
+.zl-sxy-remmend a {
+  display: block;
+}
+
+.zl-sxy-remmend .zl-bg {
+  width: 100%;
+  height: 2.64rem;
+  background-image: url("../img/sxy/bg-white.png");
+  background-size: cover;
+  margin: 0.1rem 0;
+  position: relative;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-top {
+  width: .9rem;
+  height: 1rem;
+  position: absolute;
+  top: -0.2rem;
+  right: .5rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-top > img {
+  width: .9rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-discount {
+  width: .68rem;
+  height: .3rem;
+  position: absolute;
+  top: 0.5rem;
+  right: .6rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-product {
+  width: 1.6rem;
+  margin-top: .25rem;
+  margin-left: .4rem;
+  float: left;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content {
+  width: 4.4rem;
+  height: 2.46rem;
+  margin-left: .3rem;
+  float: left;
+  padding-top: .2rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > p {
+  font-size: .24rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > p > span:first-child {
+  color: #f81e3d;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > p > span:last-child {
+  color: #000;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > img {
+  width: 1.42rem;
+  height: 0.17rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > pre {
+  font-size: .2rem;
+  color: #000;
+  margin: .1rem 0;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > div {
+  font-size: .2rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > div > span:first-child {
+  color: #000;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > div > span:last-child {
+  color: #000;
+  font-weight: 700;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > h3 > span:first-child {
+  color: #f81e3d;
+  font-size: .3rem;
+}
+
+.zl-sxy-remmend .zl-bg .zl-sxy-content > h3 > span:last-child {
+  color: #b6b6b6;
+  font-size: .18rem;
+  font-weight: 400;
+}
+
+.zl-sxy-remmend .zl-bg > a.zl-fd {
+  display: block;
+  height: 0.41rem;
+  width: 1.3rem;
+  background: url(../img/zl/sousuo-36_14.png) no-repeat 0 0;
+  background-size: auto 100%;
+  position: absolute;
+  right: 0.54rem;
+  bottom: 0.2rem;
+}
+
+.zl-sxy-remmend .zl-bg > a.zl-fd span {
+  display: block;
+  width: 0.41rem;
+  height: 0.41rem;
+  background: url(../img/zl/sousuo-32_25.png) no-repeat 0 0;
+  background-size: auto 100%;
+  margin-left: 0.85rem;
+}
+/*搜索分割线——————————*/
+div.zl-head {
+  width: 100%;
+  height: 1rem;
+  background: url(../img/zl/nav_03.png) no-repeat 0px -0.06rem;
+  background-size: 100% auto;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 666;
+}
+
+div.zl-bao {
+  width: 0.8rem;
+  height: 0.5rem;
+  margin-left: 0.24rem;
+  margin-right: 0.24rem;
+  background: url(../img/zl/sousuo1_06.png) no-repeat center;
+  background-size: 100%;
+}
+
+div.zl-search {
+  width: 5.32rem;
+  height: 1rem;
+  position: relative;
+  flex: auto;
+  display: flex;
+  align-items: center;
+}
+
+div.zl-search > span.zl-sousuo {
+  width: 0.3rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-left: 0.05rem;
+  margin-top: -0.15rem;
+  background: url(../img/zl/sousuo1_11.png) no-repeat 0px -0.02rem;
+  background-size: 100%;
+}
+
+div.zl-search > input {
+  /*display: block;*/
+  width: 100%;
+  height: 0.44rem;
+  margin: auto;
+  border: 0;
+  border-radius: 0.22rem;
+  outline: 0;
+  line-height: 0.44rem;
+  padding-left: 0.45rem;
+  color: #757575;
+  font-size: 0.2rem;
+}
+
+div.zl-search > span.zl-xiangji {
+  width: 0.42rem;
+  height: 0.42rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -0.21rem;
+  margin-right: 0.05rem;
+  background: url(../img/zl/sousuo1_08.png) no-repeat 0px 0px;
+  background-size: 100%;
+}
+
+div.zl-shaixuan {
+  width: 0.52rem;
+  height: 0.52rem;
+  margin-left: 0.19rem;
+  margin-right: 0.19rem;
+  background: url(../img/zl/sousuo1_03.png) no-repeat center;
+  background-size: 100%;
+}
+div.zl-searchmask{
+  position:fixed;
+  top:1rem;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(33,33,33,0.75);
+  z-index: 666;
+}
+div.zl-searchcontent{
+  margin:0.3rem auto 0 auto;
+  width:5.65rem;
+  height:auto;
+  padding:0.25rem 0;
+  background:rgb(255,255,255);
+  border-radius: 0.2rem;
+  position:relative;
+}
+div.zl-searchcontent >.zl-jiantou{ 
+  width:0;
+  height:0;
+  border:0.2rem solid rgba(255,255,255,0);
+  border-bottom-color:rgba(255,255,255,1);
+  position:absolute;
+  top:0;
+  left:0.4rem;
+  margin-top:-0.35rem;
+}
+div.zl-searchitem{
+  width:100%;
+  height:auto;
+  background:url(../img/zl/sousuo-5_27.png) no-repeat left bottom;
+  background-size:100% auto; 
+  display:flex;
+  align-items: center;
+}
+/*div.zl-searchcontent>div.zl-hid{
+  display:none;
+}*/
+.zl-hid{
+  display:none;
+}
+div.zl-headimg{
+  width:1.1rem;
+  height:1.22rem;
+}
+div.zl-headimg >img{
+  width:100%;
+  height:100%;
+}
+div.zl-aside{
+  width:4.55rem;
+  height:auto;
+  padding-top:0.3rem;
+  padding-bottom:0.3rem;
+}
+div.zl-name{
+  width:100%;
+  height:0.3rem;
+  position: relative;
+}
+div.zl-name >p{
+  width:100%;
+  height:0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.3rem;
+  color:rgb(246,36,102);
+}
+div.zl-name >p >span{
+  font-size: 0.3rem;
+  color:rgb(58,61,72);
+}
+ul.zl-hot{
+  position:absolute;
+  right:0.25rem;
+  top:0;
+  height:0.3rem;
+  width:1.1rem;
+}
+ul.zl-hot >li{
+  float: left;
+  height:0.3rem;
+  width:0.22rem;
+}
+ul.zl-hot >li >img{
+  height:100%;
+  width:100%;
+}
+div.zl-date{
+  height:0.32rem;
+  width:100%;
+  background:url(../img/zl/sousuo-5_06.png) no-repeat left bottom;
+  background-size:0.18rem;
+  padding-left:0.23rem; 
+}
+div.zl-date >p{
+  width:100%;
+  height:0.32rem;
+  line-height: 0.46rem;
+  font-size: 0.2rem;
+  color:rgb(136,136,136); 
+  box-sizing: border-box;
+}
+div.zl-date >p >span{
+
+  font-size: 0.18rem;
+  color:rgb(136,136,136); 
+}
+div.zl-hot{
+  width:100%;
+  height:0.48rem;
+}
+div.zl-hot >span{
+  display:block;
+  width:0.6rem;
+  margin-top:0.05rem;
+  height:0.3rem;
+  /*position:;*/
+  float: left;
+}
+div.zl-hot >i{
+  display:block;
+  width:0.8rem;
+  height:0.3rem;
+  margin-top:0.05rem;
+  margin-left:0.1rem;
+  float: left;
+}
+div.zl-hot img{
+  height:100%;
+}
+div.zl-jz{
+  display: none;
+  position:absolute;
+  left:50%;
+  top:0%;
+  z-index: 6;
+  width:7.50rem;
+  height:6.50rem;
+  margin-left:-3.75rem;
+  margin-top:3.25rem;
+  background: url(../img/zl/sousuo-jz_02.png) no-repeat center;
+  background-size:100%; 
+}
+div.zl-jz >p{
+  width:4.70rem;
+  height:0.1rem;
+  border-radius: 0.05rem;
+  background: rgb(255,255,255);
+  margin:4.5rem auto 0 auto;
+}
+div.zl-jz >p >span{
+  float: left;
+  width:0rem;
+  height:0.1rem;
+  /*border-radius: 0.05rem;*/
+  background: rgb(255,291,1);
+  
+}
+/*搜索结束*/

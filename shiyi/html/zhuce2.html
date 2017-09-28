@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="../js/common.js"></script>
+	<link rel="stylesheet" href="../css/common.css" />
+	
+	<title>zhuce</title>
+</head>
+<style>
+	html,body{
+		width: 100%;
+		height: auto;
+	}
+	.return{
+		position: absolute;
+		top: 0.35rem;
+		width: 0.35rem;
+	}
+	.logo{
+		position: absolute;
+		right: 0.1rem;
+		top: 0.2rem;
+		width: 1.63rem;
+	}
+	.logo1{
+		margin-top: 10%;
+		margin-left: 33%;
+		width:2.25rem;
+	}
+	.wenzi1{
+		margin-left: -5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: -0.5rem;
+		display: block;
+	}
+	.wenzi2{
+		font-size: 12px;
+		margin-top: 10%;
+		text-align: center;
+		display: block;
+	}
+	.wenzi2 span{
+		font-weight: bold;
+	}
+	.dian{
+		font-size: 10px;
+		margin-left: 40%;
+		color: gray;
+		display: block;
+	}
+	.dian .dian1{
+		color: black;
+	}
+	.form{
+		width: 6.05rem;
+		height: 5.5rem;
+		margin-top: 1%;
+		margin-left: 10%;
+		border: 1px solid #d6d6d6;
+		border-top:2px solid #f32175;
+		border-radius: 8%;
+		z-index: 10;
+	}
+	form{
+		position: relative;
+		background: #fff;
+	}
+	.input1{
+		position: absolute;
+		left: 20%;
+		outline: none;
+		border: none;
+		margin-top: -0.45rem;
+		width: 75%;
+		font-size: 10px;
+		color: red;
+	}
+	.input2{
+		position: relative;
+		top: -34px;
+		width: 75%;
+		left: 22%;
+		outline: none;
+		border: none;
+		height: 40px;
+		color: black;
+	}
+	.input3{
+		position: relative;
+		top: -40px;
+		left: 22%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.input4{
+		position: relative;
+		top: -45px;
+		left: 20%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.yh{
+		width: 0.56rem;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+	.line{
+		position: absolute;
+		width: 5.37rem;
+		top: 85%;
+		left: 5%;
+	}
+	.pass{
+		position: absolute;
+		width: 0.56rem;
+		top: 25%;
+		left: 5%;
+	}
+	.pass1{
+		position: absolute;
+		width: 0.56rem;
+		top: 49%;
+		left: 5%;
+	}
+	.pass2{
+		position: absolute;
+		width: 0.56rem;
+		top: 72%;
+		left: 5%;
+	}
+	.pass3{
+		position: absolute;
+		width: 0.56rem;
+		top: 89%;
+		left: 5%;
+	}
+	.line1{
+		position: absolute;
+		width: 5.37rem;
+		top: 40%;
+		left: 5%;
+	}
+	.line2{
+		position: absolute;
+		width: 5.37rem;
+		top: 62%;
+		left: 5%;
+	}
+	.yhm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: -2%;
+		color: grey;
+	}
+	.mm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 24%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm1{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 47%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm2{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 69%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm3{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 87%;
+		z-index: 5;
+		color: grey;
+	}
+	#cat{
+		position: absolute;
+		left: 7rem;
+		top: 6.5rem;
+	}
+	#cat1{
+		position: absolute;
+		left: 7rem;
+		top: 7.8rem;
+	}
+	#cat2{
+		position: absolute;
+		left: 7rem;
+		top: 9rem;
+	}
+	#cat3{
+		position: absolute;
+		left: 7rem;
+		top: 10rem;
+	}
+	.re{
+		font-size: 12px;
+		color: gainsboro;
+		bottom: 38%;
+	}
+	.re1{
+		font-size: 12px;
+		color: gainsboro;
+		margin-left: 35%;
+		bottom: 38%;
+	}
+	.liji{
+		width: 2.75rem;
+		margin-top: 0.5rem;
+		margin-left: 2rem;
+		display: block;
+	}
+	.fang{
+		font-size: 14px;
+		margin-top: 5%;
+		margin-left: 33%;
+		display: block;
+	}
+	.lijidenglu1 img{
+		width: 1.4rem;
+		margin-bottom:-8.6rem;
+		margin-left:-4.5rem;
+		
+	}
+	.lijidenglu2 img{
+		width: 1.4rem;
+		top:20%;
+	}
+	.thr{
+		margin-left: 18%;
+	}
+	.three1,.three2,.three3{
+		width: 0.72rem;
+		margin-left: 0.25rem;
+	}
+	.zc{
+		width: 4.5rem;
+		margin-left: 0.8rem;
+		margin-top: 0.2rem;
+	}
+	.safe{
+		width: 1.2rem;
+		margin-left: 1.1rem;
+		float: right;
+		margin-right: 0.2rem;
+		margin-top: -10px;
+	}
+	.error{
+		font-size: 12px;
+		text-align: center;
+		color: red;
+		font-weight: bold;
+	}
+	html,body{
+		width: 100%;
+		height: auto;
+	}
+	.return{
+		position: absolute;
+		top: 0.35rem;
+		width: 0.35rem;
+		left: 0.5rem;
+	}
+	.logo{
+		position: absolute;
+		right: 0.1rem;
+		top: 0.2rem;
+		width: 1.63rem;
+	}
+	.logo1{
+		margin-top: 10%;
+		margin-left: 33%;
+		width:2.25rem;
+	}
+	.wenzi1{
+		margin-left: -5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: -0.5rem;
+		display: block;
+	}
+	.wenzi2{
+		font-size: 12px;
+		margin-top: 10%;
+		text-align: center;
+		display: block;
+	}
+	.wenzi2 span{
+		font-weight: bold;
+	}
+	.dian{
+		font-size: 10px;
+		margin-left: 40%;
+		color: gray;
+		display: block;
+	}
+	.dian .dian1{
+		color: black;
+	}
+	.form{
+		width: 6.05rem;
+		height: 4.5rem;
+		margin-top: 5%;
+		margin-left: 10%;
+		border-bottom: 1px solid red;
+		border-top:2px solid #f32175;
+		border-radius: 8%;
+		z-index: 10;
+	}
+	form{
+		position: relative;
+		background: #fff;
+	}
+	.input1{
+		position: relative;
+		top: -45px;
+		left: 20%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.input2{
+		position: relative;
+		top: 10px;
+		width: 75%;
+		left: 22%;
+		outline: none;
+		border: none;
+		height: 40px;
+		color: black;
+	}
+	.input5{
+		position: relative;
+		top: 10px;
+		width: 75%;
+		left: 22%;
+		outline: none;
+		border: none;
+		height: 40px;
+		color: black;
+	}
+	.input3{
+		position: relative;
+		top: 30px;
+		left: 22%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.input4{
+		position: relative;
+		top: 75px;
+		left: -23%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.yh{
+		width: 0.56rem;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+	.line{
+		position: absolute;
+		width: 5.37rem;
+		top: 68%;
+		left: 5%;
+	}
+	.line5{
+		position: absolute;
+		width: 5.37rem;
+		top: 84%;
+		left: 5%;
+	}
+	.pass{
+		position: absolute;
+		width: 0.56rem;
+		top: 25%;
+		left: 5%;
+	}
+	.pass1{
+		position: absolute;
+		width: 0.56rem;
+		top: 50%;
+		left: 5%;
+	}
+	.pass2{
+		position: absolute;
+		width: 0.56rem;
+		top: 70%;
+		left: 5%;
+	}
+	.pass5{
+		position: absolute;
+		width: 0.56rem;
+		top: 90%;
+		left: 5%;
+	}
+	.pass3{
+		position: absolute;
+		width: 0.56rem;
+		top: 77%;
+		left: 5%;
+	}
+	.line1{
+		position: absolute;
+		width: 5.37rem;
+		top: 40%;
+		left: 5%;
+	}
+	.line2{
+		position: absolute;
+		width: 5.37rem;
+		top: 65%;
+		left: 5%;
+	}
+	.yhm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: -2%;
+		color: grey;
+	}
+	.mm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 24%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm1{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 47%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm2{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 69%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm3{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 87%;
+		z-index: 5;
+		color: grey;
+	}
+	#cat{
+		position: absolute;
+		left: 7rem;
+		top: 6.5rem;
+	}
+	#cat1{
+		position: absolute;
+		left: 7rem;
+		top: 7.8rem;
+	}
+	#cat2{
+		position: absolute;
+		left: 7rem;
+		top: 9rem;
+	}
+	#cat3{
+		position: absolute;
+		left: 7rem;
+		top: 10rem;
+	}
+	.re{
+		font-size: 12px;
+		color: gainsboro;
+		bottom: 38%;
+	}
+	.re1{
+		font-size: 12px;
+		color: gainsboro;
+		margin-left: 35%;
+		bottom: 38%;
+	}
+	.liji{
+		width: 2.75rem;
+		margin-top: 1.5rem;
+		margin-left: 2rem;
+		display: block;
+	}
+	.fang{
+		font-size: 14px;
+		margin-top: 5%;
+		margin-left: 33%;
+		display: block;
+	}
+	.lijidenglu1 img{
+		width: 1.4rem;
+		margin-bottom:-8.6rem;
+		margin-left:-4.5rem;
+		
+	}
+	.lijidenglu2 img{
+		width: 1.4rem;
+		top:20%;
+	}
+	.thr{
+		margin-left: 18%;
+	}
+	.three1,.three2,.three3{
+		width: 0.72rem;
+		margin-left: 0.25rem;
+	}
+	.zc{
+		width: 4.5rem;
+		margin-left: 0.8rem;
+		margin-top: 0.2rem;
+	}
+	.safe{
+		width: 1.2rem;
+		margin-left: 1.1rem;
+		float: right;
+		margin-right: 0.2rem;
+		margin-top: 0.98rem;
+	}
+</style>
+<body>
+	<a href="zhuce1.html">
+		<img src="../img/lg/return.gif" alt="" class="return"/>
+	</a>
+	<img src="../img/lg/logo_01_11.png" alt="" class="logo1"/>
+	<span class="wenzi1">拾 × 忆</span>
+	<span class="wenzi2">answe outh <span>Seak to us of friend</span> needs answe</span>
+	<span class="dian"><span class="dian1">.</span>...................<span class="dian1">.</span></span>
+	<div class="form">
+		<form action="">
+			<img src="../img/lg/zhuce_07.png" alt="" class="zc"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass"/>
+			<input type="text" class="input2" placeholder="小正月"/>
+			<img src="../img/lg/line_07.png" alt="" class="line1"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass1"/>
+			<input type="text" class="input3" placeholder="138 8888 8888"/>
+				<img src="../img/lg/line_07.png" alt="" class="line2"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass2"/>
+			<input type="password" class="input4" placeholder="请输入密码"/>
+			<img src="../img/lg/safe_07.png" alt="" class="safe"/>
+			<img src="../img/lg/line_07.png" alt="" class="line5"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass5"/>
+			<input type="text" class="input5" placeholder="138 8888 8888"/>
+		</form>
+	</div>
+		<input   type="radio"   id="cat"   name="cat"   value="1"   onclick= "if(this.c==1){this.c=0;this.checked=0}else{this.c=1}"   c="0"/>
+		<input   type="radio"   id="cat1"   name="cat"   value="1"   onclick= "if(this.c==1){this.c=0;this.checked=0}else{this.c=1}"   c="0"/>
+		<input   type="radio"   id="cat2"   name="cat"   value="1"   onclick= "if(this.c==1){this.c=0;this.checked=0}else{this.c=1}"   c="0"/>
+		<input   type="radio"   id="cat3"   name="cat"   value="1"   onclick= "if(this.c==1){this.c=0;this.checked=0}else{this.c=1}"   c="0"/>
+	<a href="zhuce3.html">
+		<img src="../img/lg/zhuceb_07.png" alt="" class='liji'/>
+	</a>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+	background:#fdfcfd;
+}
+.key{
+	width:100%;
+	margin-top:1.43rem;
+}
+/*money*/
+.money{
+	width:7.5rem;
+	height:1.43rem;
+	/*background:blue;*/
+	text-align:center;
+	padding-top:0.34rem;
+}
+.money>.rmb{
+	width:0.92rem;
+	margin-top:0.16rem;
+}
+.money>.letter{
+	font-size:0.54rem;
+	font-family:'ALTGOT2N';
+	color:#f81e3d;
+}
+/*密码*/
+.mi{
+	width:7.5rem;
+	height:1.66rem;
+	box-sizing:border-box;
+	padding-left:0.38rem;
+	padding-right:0.38rem;
+	padding-top:0.74rem;
+}
+.mi>form{
+	width:6.74rem;
+	height:0.8rem;
+}
+.mi>form>input{
+	width:0.76rem;
+	height:100%;
+	border:none;
+	outline:none;
+	float:left;
+	margin-left:0.28rem;
+	text-align:center;
+	line-height:0.8rem;
+	font-size:0.48rem;
+	color:#ff3f6f;
+}
+.mi>.line{
+	width:6.74rem;
+	height:0.04rem;
+	margin-top:0.08rem;
+}
+.mi>.line>div{
+	width:0.76rem;
+	height:100%;
+	margin-left:0.28rem;
+	background:#afafaf;
+	float:left;
+}
+.mi>.line>.color{
+	background:#ff3f6f;
+}
+/*遮罩*/
+.cover{
+	width:7.5rem;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:300;
+	background:rgba(0,0,0,0.4);
+	padding-top:3.06rem;
+	box-sizing:border-box;	
+}
+.active{
+	display:none;
+}
+.cover>.dingdan{
+	width:100%;
+	height:7.28rem;
+	background-image:url('../img/lp/lp-pay-5-3.png');
+	background-size:100%;
+	background-position:center;
+	text-align:center;
+	padding-top:2.28rem;
+	box-sizing:border-box;
+}
+.cover>.dingdan>.return{
+	width:5.2rem;
+	height:0.9rem;
+	border-radius:0.4rem;
+	background:#FFD500;
+	margin-top:3.76rem;
+	margin-left:1.28rem;
+	text-align:center;
+	padding-top:0.3rem;
+	box-sizing:border-box;
+}
+.cover>.dingdan>.return>img{
+	width:1.26rem;
+}

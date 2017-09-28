@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>last</title>
+	<script src="../js/common.js"></script>
+	<link rel="stylesheet" href="../css/swiper.css" />
+	<link rel="stylesheet" href="../css/common.css" />
+	<script src="../js/jquery.js"></script>
+	<script src="../js/swiper.js"></script>
+</head>
+<style>
+	html,body{
+		width: 100%;
+		height: auto;
+	}
+	.return{
+		position: absolute;
+		top: 0.35rem;
+		width: 0.35rem;
+		margin-left: 0.5rem;
+	}
+	.mes{
+		width:1.44rem;
+		display: block;
+		margin: 0 auto;
+		margin-top: 0.35rem;
+	}
+	.xinxi{
+		width: 3.53rem;
+		display: block;
+		margin: 0 auto;
+		margin-top: 0.5rem;
+	}
+	.xinbie{
+		width: 2.05rem;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+	}
+	.man{
+		width: 1.45rem;
+		margin-left: 1.45rem;
+	}
+	.woman{
+		width: 1.45rem;
+		margin-left: 1.3rem;
+	}
+	.choose{
+		margin-top: 0.5rem;
+	}
+	.qujian{
+		width: 2.95rem;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+	}
+	.tu{
+		width: 6.2rem;
+		margin: 0 auto;
+		margin-top: 0.5rem;
+	}
+	.tutu{
+		width: 6.2rem;
+	}
+	.sp{
+		width: 2.95rem;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+	}
+	.swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide:nth-child(1){
+     	margin-left: 0.5rem;
+     }
+    .swiper-slide {
+    	width: 2.58rem;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin-top: -1rem;
+    }
+    .pho img{
+    	width: 33%;
+    	float: left;
+    }
+    .swiper-pagination{
+    	display: none;
+    }
+    .footer{
+    	width: 7.5rem;
+    	position: absolute;
+    	bottom: -0.5rem;
+    	z-index: 100;
+    	left: 0rem;
+    }
+</style>
+<body>
+	<a href="zhuce3.html">
+		<img src="../img/lg/return.gif" alt="" class="return"/>
+	</a>
+	<img src="../img/lg/area_07.png" alt="" class="mes"/>
+	<img src="../img/lg/area_11.png" alt="" class="xinxi"/>
+	<img src="../img/lg/area_15.png" alt="" class="xinbie"/>
+	<div class="choose">
+		<img src="../img/lg/area_19.png" alt="" class="man"/>
+		<img src="../img/lg/area_21.png" alt="" class="woman"/>
+	</div>
+	<img src="../img/lg/area_25.png" alt="" class="qujian"/>
+	<div class="tu">
+		<img src="../img/lg/table_29.png" alt="" class="tutu"/>
+	</div>
+	<img src="../img/lg/footer_07.png" alt="" class="sp"/>
+	<div class="pho">
+		<img src="../img/lg/footer_10.png" alt="" />
+    	<img src="../img/lg/footer_12.png" alt="" />
+    	<img src="../img/lg/footer_12.png" alt="" />
+	</div>
+    <a href="https://htmlpreview.github.io/?https://github.com/shiyi207/shiyi/blob/master/html/denglu.html">
+    	<img src="../img/lg/footer_17.png" alt="" class="footer"/>
+    </a>
+</body>
+</html>
+<script>
+	 var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+        freeMode: true
+    });
+</script>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>音乐</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/swiper.css" />
+    <script src='js/swiper.js'></script>
+</head>
+<body>
+	<!--导航-->
+	<nav>
+		<a href="" class="menu">
+			<img src="img/menu.png" alt="" />
+		</a>
+		<div class="nav">
+			<a href="myself.html">我的</a>
+			<a href="index.html">音乐馆</a>
+			<a href="javascript:;">发现</a>
+		</div>
+		<a href="javascript:;" class="search">
+			<img src="img/search.png" alt="" />
+		</a>
+	</nav>
+	<!--导航-->
+	<section class="dao">
+		<a href="index.html">精选</a>
+		<a href="playlist.html">歌单</a>
+		<a href="singer.html">歌手</a>
+		<a href="rank.html">排行榜</a>
+	</section>
+	<!--banner-->
+	<div class="swiper-container">
+        <div class="swiper-wrapper" style="height: 200px;">
+            <div class="swiper-slide"><img src="img/banner.jpg" alt="" style="width: 100%;"/></div>
+            <div class="swiper-slide"><img src="img/ban2.jpg" alt="" style="width: 100%;"/></div>
+            <div class="swiper-slide"><img src="img/ban3.jpg" alt="" style="width: 100%;"/></div>
+            <div class="swiper-slide"><img src="img/ban4.jpg" alt="" style="width: 100%;"/></div>
+            <div class="swiper-slide"><img src="img/ban1.jpg" alt="" style="width: 100%;"/></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+	<!--新歌首发-->
+	<a href="javascript:;" class="new">
+		<img src="img/sf.png" alt="">
+		<span>新歌首发</span>
+	</a>
+	<ul class="new-sing">
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>吴亦凡</h3>
+				<h4>bad girl</h4>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>徐佳莹</h3>
+				<h4>寻人故事</h4>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>萧敬腾</h3>
+				<h4>It’s about love</h4>
+			</a>
+		</li>
+	</ul>
+	<!--为您推荐-->
+	<a href="" class="recommend">
+		<img src="img/tj.png" alt="">
+		<span>为您推荐</span>
+	</a>
+	<ul class="recommend-tj">
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>从少年唱到大叔，岁月待人优</h3>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>梦游者需要贫血的时光</h3>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>可是我只会这一种爱的方式</h3>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<div></div>
+				<h3>给你一个摇摆不停的回忆</h3>
+			</a>
+		</li>
+	</ul>
+	<!--底部-->
+	<section class="play">
+		<a href="javascript:;" class="play-img">
+			<img src="img/18.jpg" alt="">
+		</a>
+		<div class="text">
+			<h5>18</h5>
+			<h6>李玟</h6>
+		</div>
+		<ul>
+			<li>
+				<a href="javascript:;">
+					<img src="img/play1.png" alt="">
+				</a>
+			</li>
+
+			<li>
+				<a href="javascript:;">
+					<img src="img/play2.png" alt="">
+				</a>
+			</li>
+
+			<li>
+				<a href="javascript:;">
+					<img src="img/play3.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</section>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        loop:true
+    });
+</script>

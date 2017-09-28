@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>画布</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            margin-top: 2px;
+        }
+        .fun {
+            margin-top: 2px;
+            float: left;
+            width: 300px;
+            height: 652px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-left: 24px;
+            border: 2px solid #000;
+            box-sizing: border-box;
+            margin-left: 2px;
+            margin-right: 5px;
+        }
+
+        .fun > div > h2 {
+            color: #058c91;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        div[type] {
+            cursor: pointer;
+        }
+
+        .active {
+            color: #054384;
+            font-weight: 600;
+        }
+    </style>
+    <script src='jquery.min.js'></script>
+    <script src='canvasclass.js'></script>
+    <script src='canvas.js'></script>
+</head>
+<body>
+<div class="fun">
+    <div>
+        <h2>绘画功能</h2>
+        <div type='new' class='active'>新建画布</div>
+        <div type='save'>保存画布</div>
+        <div type='return'>返回</div>
+    </div>
+    <div>
+        <h2>形状</h2>
+        <div type='line' class='active'>线</div>
+        <div type='rect'>矩形</div>
+        <div type='linearRect'>渐变矩形</div>
+        <div type='circle'>圆</div>
+        <div type='radialCircle'>渐变圆</div>
+        <div type='poly'>正多边形</div>
+        <div type='radialRect'>圆角矩形</div>
+        <div type='del'>擦除</div>
+    </div>
+    <div>
+        <h2>绘画方式</h2>
+        <div type='fill' class='active'>填充</div>
+        <div type='stroke'>轮廓</div>
+    </div>
+    <div>
+        <h2>颜色</h2>
+        填充色：<input type="color"/>
+        轮廓色：<input type="color"/>
+    </div>
+    <div>
+        <h2>渐变色</h2>
+        <input type="color" name="fill"/>
+        <input type="color" name='stroke'/>
+    </div>
+    <div>
+        <h2>其它</h2>
+        轮廓线宽：<input type="text" value='3' aa='lineWidth'/><br/>
+        圆角半径：<input type="text" value='30' aa='radialR'/><br/>
+        多边形边：<input type="text" value='3' aa='n'/><br/>
+        擦除半径：<input type="text" value='10' aa='delWidth'/><br/>
+    </div>
+</div>
+</body>
+</html>

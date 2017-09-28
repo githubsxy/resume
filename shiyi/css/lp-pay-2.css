@@ -1,0 +1,103 @@
+body{
+	background:#f7f7f7;	
+}
+/*header*/
+.lp-header{
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	top:0;
+	display:flex;
+	align-items:center;
+	z-index:100;
+}
+.lp-header>a>img{
+	margin-left:0.24rem;
+	width:0.34rem;
+}
+.lp-header>.title{
+	margin-left:2.27rem;
+	height:0.49rem;
+}
+/*body*/
+.lp-body{
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+/*支付中介选择*/
+.lp-body>.Intermediary{
+	width:100%;
+	height:3.21rem;
+}
+.lp-body>.Intermediary>.line1{
+	height:0.62rem;
+	margin-left:0.42rem;
+	margin-top:0.28rem;
+}
+.lp-body>.Intermediary>.line2{
+	margin-left:0.42rem;
+	margin-top:0.46rem;
+}
+.lp-body>.Intermediary>.line2>a>.weixin{
+	height:1.2rem;	
+}
+.lp-body>.Intermediary>.line2>a>.zhifubao{
+	height:1.2rem;
+	margin-left:0.38rem;
+}
+/*下半部分*/
+.lp-body>.section{
+	width:7.5rem;
+	height:8.13rem;
+	background:#ffffff;
+	border-radius:0.1rem 0.1rem 0 0;
+	text-align:center;
+}
+.lp-body>.section>.card>.bg{
+	width:7.5rem;
+}
+.lp-body>.section>.card1{
+	position:relative;
+}
+.lp-body>.section>.card1>.number{
+	position:absolute;
+	left:1.53rem;
+	top:-0.38rem;
+	color:#707070;
+	z-index:100;
+	width:3rem;
+	text-align:left;
+}
+.lp-body>.section>.card1>.type{
+	height:0.4rem;
+	position:absolute;
+	top:-0.74rem;
+	left:4.97rem;
+}
+.lp-body>.section>.card1>.shu{
+	height:0.52rem;
+	position:absolute;
+	top:-0.84rem;
+	left:6.51rem;
+}
+.lp-body>.section>img{
+	width:7.02rem;
+}
+/*底部*/
+.lp-footer{
+	display:block;
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	bottom:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.lp-footer>img{
+	height:0.48rem;
+}

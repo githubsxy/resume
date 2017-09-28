@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box; }
+
+.sxy-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+header {
+  width: 100%;
+  height: 1.4rem;
+  background-color: #f62466;
+  border-bottom: 10px solid #ff82a8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.2rem; }
+  header .sxy-paimai {
+    width: 2.25rem;
+    height: 0.63rem;
+    margin-top: 0.3rem; }
+  header a {
+    display: block; }
+    header a img {
+      width: 0.5rem;
+      margin-top: 0.3rem; }
+
+.sxy-time {
+  width: 6.36rem;
+  height: 1rem;
+  box-shadow: 0 0 0.05rem 0 #888;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  margin-left: 0.57rem;
+  margin-top: -0.5rem; }
+  .sxy-time .sxy-time-title {
+    height: 1rem;
+    margin-left: 0.2rem;
+    float: left; }
+
+.sxy-mao {
+  height: 1rem;
+  padding-left: .3rem;
+  float: left; }
+
+.sxy-data {
+  width: 0.72rem;
+  height: 1rem;
+  float: left;
+  margin-left: .3rem;
+  background-image: url(../img/sxy/sxy-time.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f62466;
+  font-size: 0.36rem;
+  line-height: 1rem;
+  text-align: center; }
+
+.sxy-lb {
+  width: 6rem;
+  height: 5.2rem;
+  margin: 0.3rem 0.75rem; }
+
+.sxy-infor {
+  width: 100%;
+  height: 1.6rem;
+  padding: 0 0.5rem; }
+  .sxy-infor .sxy-name {
+    float: left; }
+    .sxy-infor .sxy-name p {
+      color: #f62466;
+      font-size: 0.36rem; }
+    .sxy-infor .sxy-name h6 {
+      color: #4b4b58;
+      font-size: 0.36rem;
+      font-weight: normal; }
+    .sxy-infor .sxy-name h5 {
+      color: #000;
+      font-size: 0.32rem;
+      font-weight: normal; }
+    .sxy-infor .sxy-name img {
+      width: 3.14rem;
+      height: 0.14rem; }
+  .sxy-infor .sxy-stars {
+    margin-left: 0.3rem;
+    height: 0.4rem;
+    float: left; }
+    .sxy-infor .sxy-stars img {
+      width: 0.4rem;
+      float: left; }
+  .sxy-infor .sxy-photo {
+    width: 1.54rem;
+    float: right;
+    margin-top: -0.3rem; }
+
+.sxy-sale {
+  width: 100%;
+  height: 1rem;
+  padding: 0 0.5rem; }
+  .sxy-sale .sxy-mai {
+    width: 4rem;
+    height: 0.8rem;
+    margin-top: -0.2rem; }
+    .sxy-sale .sxy-mai .chu {
+      float: left;
+      width: 1.6rem;
+      height: 0.54rem;
+      background-image: url(../img/sxy/sxy-shou.png);
+      background-size: cover;
+      line-height: 0.54rem;
+      text-align: center;
+      color: #fff;
+      font-size: 0.24rem; }
+    .sxy-sale .sxy-mai .paimai {
+      float: left;
+      width: 1.6rem;
+      height: 0.54rem;
+      background-image: url(../img/sxy/sxy-chu.png);
+      background-size: cover;
+      line-height: 0.54rem;
+      text-align: center;
+      color: #000;
+      font-size: 0.24rem; }
+  .sxy-sale .sxy-data {
+    width: 4.4rem;
+    height: 0.5rem;
+    display: flex;
+    margin-top: -0.2rem;
+    margin-left: 0.1rem;
+    justify-content: space-between; }
+    .sxy-sale .sxy-data > .sxy-hobby {
+      display: block;
+      width: 1.5rem;
+      height: 0.4rem;
+      float: left; }
+
+.sxy-hobby > img {
+  width: 0.35rem;
+  float: left;
+  margin-right: 0.1rem;
+  margin-top: 0.3rem; }
+
+.sxy-hobby > #sxy-shu {
+  color: #99999a;
+  font-size: 0.26rem;
+  float: left; }
+
+.sxy-rmb {
+  width: 1.5rem;
+  height: 1rem;
+  float: left;
+  margin-top: -0.55rem; }
+
+.sxy-rmb h4 {
+  color: #f81e3d;
+  font-size: 0.4rem;
+  float: left; }
+
+.sxy-rmb h5 {
+  color: #f81e3d;
+  font-size: 0.3rem;
+  float: left;
+  margin-top: 0.1rem; }
+
+.sxy-rmb > p {
+  color: #b6b6b6;
+  font-size: 0.3rem;
+  margin-right: 0.12rem; }
+
+.sxy-yiwu {
+  padding: 0 0.4rem; }
+  .sxy-yiwu .yiwu-title {
+    width: 4.72rem;
+    height: 1.52rem; }
+  .sxy-yiwu .sxy-reload {
+    display: inline-block;
+    width: 1.35rem;
+    height: 0.87rem; }
+    .sxy-yiwu .sxy-reload img {
+      width: 1.35rem;
+      margin-bottom: 0.2rem;
+      margin-left: 0.5rem; }
+
+.yiwu-content {
+  width: 100%;
+  padding: 0 0.3rem;
+  z-index: -1; }
+  .yiwu-content .yiwu-bg {
+    width: 6.9rem; }
+
+.yiwu-bgrect {
+  margin-left: 0.3rem;
+  width: 6.9rem;
+  height: 2.26rem;
+  margin-top: -1rem;
+  position: relative;
+  margin-bottom: 0.3rem; }
+  .yiwu-bgrect img {
+    width: 6.9rem; }
+
+.sxy-bg-content {
+  width: 5.5rem;
+  height: 2.26rem;
+  margin-left: 0.7rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  z-index: 9999; }
+  .sxy-bg-content .yiwu-left {
+    float: left;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    width: 3.8rem; }
+  .sxy-bg-content .yiwu-right {
+    width: 1.5rem;
+    float: right;
+    margin-left: 0.1rem; }
+
+.yiwu-left > .yiwu-ka > p:first-child {
+  color: #fa707e;
+  font-size: 0.24rem;
+  float: left; }
+
+.yiwu-left > .yiwu-ka > p:last-child {
+  color: #000;
+  font-size: 0.24rem; }
+
+.yiwu-left > img {
+  width: 1.44rem;
+  height: 0.15rem; }
+
+.yiwu-left > .yiwu-posi {
+  float: left; }
+
+.yiwu-left > .yiwu-posi > img {
+  float: left;
+  width: 0.56rem; }
+
+.yiwu-left > .yiwu-posi > p {
+  line-height: 0.56rem;
+  float: left;
+  font-size: 0.2rem;
+  color: #909090;
+  padding-right: 0.1rem; }
+
+.yiwu-right > img {
+  width: 1.2rem; }
+
+.yiwu-right > div > p:first-child {
+  color: #626162;
+  font-size: 0.24rem;
+  float: left; }
+
+.yiwu-right > div > p:last-child {
+  color: #626162;
+  font-weight: bold;
+  font-size: 0.24rem; }
+
+.yiwu-right > .xing {
+  margin-top: 0.1rem;
+  margin-left: 0.3rem; }
+
+.yiwu-right > .xing > img {
+  width: 0.25rem;
+  float: left; }

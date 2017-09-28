@@ -1,0 +1,397 @@
+/*导航*/
+nav{
+    background-color: #fc3538;
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+nav > .menu{
+    display: block;
+}
+nav > .menu > img{
+    width: 0.64rem;
+    display: block;
+    padding-top: 0.12rem;
+}
+nav > .nav > a:first-child{
+    font-size: 0.36rem;
+    color: #fdfdfd;
+    line-height: 0.88rem;
+}
+nav > .nav > a:nth-child(2){
+    font-size: 0.4rem;
+    color: #fdfdfd;
+    line-height: 0.88rem;
+    margin: 0 0.88rem;
+    font-weight: 500;
+}
+nav > .nav > a:last-child{
+    font-size: 0.36rem;
+    color: #fdfdfd;
+    line-height: 0.88rem;
+}
+nav > .search{
+    display: block;
+}
+nav > .search > img{
+    width: 0.69rem;
+    display: block;
+    padding-top: 0.12rem;
+}
+/*导航*/
+.dao{
+    width: 100%;
+    height:0.88rem;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefcfc;
+}
+.dao a{
+    font-size: 0.36rem;
+    color: #1b1616;
+    line-height: 0.88rem;
+}
+.dao a:nth-child(2){
+    color: #fc3538;
+    position: relative;
+}
+.dao a:nth-child(2):after{
+    content: "";
+    width:0.72rem;
+    height: 2px;
+    background-color:#fc3538;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+/*热门分类*/
+.classify{
+    display: block;
+    overflow: hidden;
+    padding: 0 0.24rem;
+}
+.classify img{
+    width: 0.5rem;
+    padding-top: 0.35rem;
+    float: left;
+}
+.classify span{
+    float: left;
+    font-size: 0.36rem;
+    color: #1b1616;
+    padding-top: 0.36rem;
+}
+.list{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+
+.list .one{
+    width: 2.18rem;
+    height: 2.18rem;
+    background-color: #f8f5f5;
+    line-height: 2.18rem;
+    text-align: center;
+    border-radius: 10%;
+    float: left;
+    margin-top: 0.36rem;
+    position: relative;
+}
+.list .one img{
+    position: absolute;
+    width: 0.37rem;
+    left:0;
+    top:-0.01rem;
+}
+.list .one a{
+    color: #1b1616;
+    font-size: 0.3rem;
+    line-height: 2.18rem;
+    letter-spacing: 0.08rem;
+}
+.list .two{
+    float: left;
+    width: 4.84rem;
+}
+.list .two li{
+    width: 2.18rem;
+    height:0.97rem;
+    background-color: #f8f5f5;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+    border-radius: 10%;
+    color: #1b1616;
+    text-align: center;
+    float: left;
+}
+.list .two li:first-child,.list .two li:nth-child(2){
+    margin-top: 0.36rem;
+}
+.list .two li a{
+     color: #1b1616;
+     font-size: 0.3rem;
+     line-height: 0.97rem;
+     letter-spacing: 0.08rem;
+ }
+.list .three{
+    width: 7.02rem;
+    height:2.42rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.list .three li{
+    width: 2.18rem;
+    height:0.97rem;
+    background-color: #f8f5f5;
+    margin-top: 0.24rem;
+    border-radius: 10%;
+    color: #1b1616;
+    text-align: center;
+}
+.list .three li a{
+    color: #1b1616;
+    font-size: 0.3rem;
+    line-height: 0.97rem;
+    letter-spacing: 0.08rem;
+}
+.list .four{
+    width: 7.02rem;
+    height: 0.97rem;
+    background-color: #f8f5f5;
+    margin-top: 0.24rem;
+    border-radius: 6%;
+    text-align: center;
+}
+.list .four a{
+    color: #1b1616;
+    font-size: 0.3rem;
+    line-height: 0.97rem;
+    letter-spacing: 0.08rem;
+}
+/*精选歌单*/
+.select{
+    display: block;
+    overflow: hidden;
+    padding: 0 0.24rem;
+}
+.select img{
+    width: 0.5rem;
+    padding-top: 0.35rem;
+    float: left;
+}
+.select span{
+    float: left;
+    font-size: 0.36rem;
+    color: #1b1616;
+    padding-top: 0.36rem;
+}
+ul.new-sing{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    margin-top: 0.36rem;
+    box-sizing: border-box;
+}
+ul.new-sing li{
+    width: 2.2rem;
+    text-align: center;
+}
+ul.new-sing li a{
+    display: block;
+    width: 2.2rem;
+}
+ul.new-sing li:first-child a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/a.jpg");
+    background-size: cover;
+}
+ul.new-sing li:nth-child(2) a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/b.jpg");
+    background-size: cover;
+}
+ul.new-sing li:last-child a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/c.jpg");
+    background-size: cover;
+}
+ul.new-sing li a h3{
+    font-size: 0.24rem;
+    color: #4d4949;
+    font-weight: normal;
+    margin-top: 0.2rem;
+    line-height: 0.36rem;
+}
+ul.new-sing1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    margin-top: 0.36rem;
+    box-sizing: border-box;
+}
+ul.new-sing1 li{
+    width: 2.2rem;
+    text-align: center;
+}
+ul.new-sing1 li a{
+    display: block;
+    width: 2.2rem;
+}
+ul.new-sing1 li:first-child a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/d.jpg");
+    background-size: cover;
+}
+ul.new-sing1 li:nth-child(2) a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/e.jpg");
+    background-size: cover;
+}
+ul.new-sing1 li:last-child a div{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../img/f.jpg");
+    background-size: cover;
+}
+ul.new-sing1 li a h3{
+    font-size: 0.24rem;
+    color: #4d4949;
+    font-weight: normal;
+    margin-top: 0.2rem;
+    line-height: 0.36rem;
+}
+/*每日推荐*/
+.day{
+    display: block;
+    overflow: hidden;
+    padding: 0 0.24rem;
+}
+.day img{
+    width: 0.5rem;
+    padding-top: 0.35rem;
+    float: left;
+}
+.day span{
+    float: left;
+    font-size: 0.36rem;
+    color: #1b1616;
+    padding-top: 0.36rem;
+}
+.day-list{
+    padding: 0 0.24rem;
+    width: 100%;
+    height:1.5rem;
+    box-sizing: border-box;
+    margin-top: 0.36rem;
+    border-bottom: 1px solid #e7e2e2;
+}
+.day-list.last{
+    margin-bottom: 1rem;
+}
+.day-list  a{
+    display: block;
+    float: left;
+}
+.day-list  a img{
+    width: 1.3rem;
+    margin: 0.04rem 0;
+}
+.day-list .zi{
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.24rem;
+}
+.day-list .zi h3{
+    font-size: 0.3rem;
+    color: #515555;
+    font-weight: normal;
+    letter-spacing: 0.04rem;
+}
+.day-list .zi h4{
+    font-size: 0.28rem;
+    color: #646868;
+    font-weight: normal;
+    letter-spacing: 0.04rem;
+}
+/*底部*/
+html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.play{
+    width:100%;
+    height: 1rem;
+    border-top: 1px solid #fc3538;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background-color: #fefcfc;
+}
+.play .play-img{
+    display: block;
+    float: left;
+    margin: 0.02rem 0;
+}
+.play .play-img img{
+    width: 0.96rem;
+}
+.play .text{
+    padding-left: 0.2rem;
+    float: left;
+}
+.play .text h5{
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #1b1717;
+    padding-top: 0.2rem;
+}
+.play .text h6{
+    font-size: 0.24rem;
+    color: #a49e9e;
+}
+.play ul{
+    float: right;
+    padding-top: 0.24rem;
+}
+.play ul li{
+    float: left;
+}
+.play ul li a{
+    display: block;
+}
+.play ul li a img{
+    width: 0.6rem;
+}
+.play ul li:nth-child(2){
+    padding: 0  0.5rem;
+}

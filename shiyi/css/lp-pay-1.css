@@ -1,0 +1,317 @@
+body{
+	background:#f7f7f7;	
+}
+/*nav*/
+.lp-header{
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100;
+}
+.lp-header>.lp-container{
+	width:7.02rem;
+	height:1rem;
+	margin:0 auto;
+	text-align:justify;	
+	box-sizing:border-box;
+	line-height:1.2rem;
+}
+.lp-header>.lp-container:after{
+	content:'';
+	width:100%;
+	display:inline-block;
+}
+.lp-header>.lp-container>a{
+	display:inline-block;
+	width:0.34rem;
+	height:1rem;
+}
+.lp-header>.lp-container>a>img:nth-child(1){
+	width:0.34rem;
+}
+.lp-header>.lp-container>img:nth-child(2){
+	width:1.45rem;
+}
+.lp-header>.lp-container>img:nth-child(3){
+	width:0.65rem;
+}
+/*line1*/
+.lp-body{
+	margin-bottom:2rem;
+	margin-top:1.2rem;
+	overflow:hidden;
+}
+.lp-body>.lp-line1{
+	margin-top:0.1rem;	
+	display:block;
+	height:1.94rem;
+	width:100%;
+	position:relative;
+	padding-left:0.46rem;
+	box-sizing:border-box;
+}
+.lp-body>.active{
+	display:none;
+}
+.lp-body>.lp-line1>.circle{
+	width:0.22rem;
+	height:0.22rem;
+	position:absolute;
+	top:0.9rem;
+	left:0.24rem;
+	background-image:url('../img/lp/lp-pay-1-5.png');
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.lp-body>.lp-line1>.change{
+	background-image:url('../img/lp/lp-pay-1-13.png');
+}
+.lp-body>.lp-line1>.lp-shangpin{
+	width:1.7rem;
+	float:left;
+	margin-left:0.1rem;
+	margin-top:0.1rem;
+	box-shadow:0 0 0.04rem 0 #dcd6d6;
+}
+.lp-body>.lp-line1>.lp-message{
+	float:left;
+	margin-left:0.36rem;	
+}
+.lp-body>.lp-line1>.lp-message>.letter{
+	font-size:0.24rem;
+	color:#3f4247;
+	margin-top:0.24rem;
+	margin-left:0.04rem;
+}
+.lp-body>.lp-line1>.lp-message>.letter>span:first-child{
+	font-weight:bold;
+}
+.lp-body>.lp-line1>.lp-message>.en{
+	width:1.99rem;
+	margin-top:0.1rem;
+}
+.lp-body>.lp-line1>.lp-message>.lp-star{
+	margin-top:0.1rem;
+}
+.lp-body>.lp-line1>.lp-message>.lp-star>img{
+	width:0.24rem;
+}
+.lp-body>.lp-line1>.lp-message>.lp-datail>.jiu{
+	height:0.29rem;
+	width:0.71rem;
+	background-image:url('../img/lp/lp-pay-1-22.png');
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+	line-height:0.29rem;
+	font-size:0.14rem;
+	color:#3f4247;
+	float:left;
+}
+.lp-body>.lp-line1>.lp-message>.lp-datail>.create{
+	height:0.29rem;
+	width:0.85rem;
+	background-image:url('../img/lp/lp-pay-1-23.png');
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+	line-height:0.29rem;
+	font-size:0.14rem;
+	color:#3f4247;
+	float:left;
+	margin-left:0.28rem;
+}
+.lp-body>.lp-line1>.lp-money{
+	float:right;
+	width:1.12rem;
+	height:1.2rem;
+	margin-right:0;
+	margin-top:0.45rem;
+	margin-right:0.24rem;
+}
+.lp-body>.lp-line1>.lp-money>.lp-qian{
+	font-size:0.48rem;
+	font-weight:0.8;
+	color:#f81e3d;
+	font-family:'ALTGOT2N';
+}	
+.lp-body>.lp-line1>.lp-money>img{
+	margin-top:0.04rem;
+	width:1.1rem;
+}
+.lp-body>.lp-line1>.lp-money>.lp-store{
+	margin-top:0.04rem;
+}
+.lp-body>.lp-line1>.lp-money>.lp-store>img{
+	float:left;
+	width:0.3rem;	
+}
+.lp-body>.lp-line1>.lp-money>.lp-store>span{
+	float:left;
+	width:0.62rem;
+	height:0.25rem;
+	border-radius:0.5rem;
+	background:#d6d6d6;
+	font-size:0.14rem;
+	text-align:center;
+	line-height:0.25rem;
+	margin-left:0.16rem;
+	margin-top:0.03rem;
+	color:#3f4247;
+}
+/*分割线*/
+.lp-body>.lp-line{
+	width:100%;
+	height:0.03rem;
+	texy-align:center;
+	line-height:0.03rem;
+	padding-left:0.24rem;
+}
+.lp-body>.lp-line>img{
+	width:6.92rem;
+}
+/*支付*/
+.lp-body>.lp-pay{
+	float:right;
+	width:2.82rem;
+	height:1.18rem;
+	margin-right:0.36rem;
+	margin-top:0.53rem;
+}
+.lp-body>.lp-pay>.lp-hang1>img{
+	height:0.24rem;
+	margin-left:0.66rem;
+}
+.lp-body>.lp-pay>.lp-hang1>span{
+	font-size:0.22rem;
+	margin-left:0.03rem;
+}
+.lp-body>.lp-pay>.lp-hang2>span{
+	font-size:0.48rem;
+	color:#3e3e43;
+	margin-left:0.77rem;
+	margin-top:0.14rem;
+}
+.lp-body>.lp-pay>.lp-hang2>img{
+	height:0.24rem;
+	margin-top:0.35rem;
+}
+.lp-body>.lp-pay>.lp-hang3{
+	margin-top:0.1rem;
+}
+.lp-body>.lp-pay>.lp-hang3>span{
+	margin-left:0.04rem;
+	color:#b6b6b6;
+	font-size:0.22rem;
+}
+/*删除*/
+.lp-body>.lp-del{
+	float:right;
+	width:1.82rem;
+	height:0.6rem;
+	border-radius:0.4rem;
+	background:#F62466;
+	margin-right:0.36rem;
+	margin-top:0.53rem;
+}
+.lp-body>.lp-del>img{
+	width:0.3rem;
+	margin-top:0.15rem;
+	margin-left:0.18rem;
+	float:left;
+}
+.lp-body>.lp-del>span{
+	color:#FEDAE5;
+	font-size:0.22rem;
+	float:left;
+	margin-top:0.12rem;
+	margin-left:0.1rem;
+}
+/*底部*/
+.lp-footer{
+	display:block;
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	bottom:0;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.lp-footer>img{
+	height:0.48rem;
+}
+/*遮罩*/
+.cover{
+	width:7.5rem;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:300;
+	background:rgba(0,0,0,0.4);
+	padding-top:3.06rem;
+	box-sizing:border-box;
+	display:none;
+}
+.cover>.dingdan{
+	width:100%;
+	height:5.52rem;
+	background-image:url('../img/lp/lp-pay-1-25.png');
+	background-size:100%;
+	background-position:center;
+	text-align:center;
+	padding-top:2.28rem;
+	box-sizing:border-box;
+}
+.cover>.dingdan>.hao{
+	font-size:0.26rem;
+	color:#21212c;
+}
+.cover>.dingdan>.yuan{
+	font-size:0.44rem;
+	color:#f81e3d;
+	font-family:'ALTGOT2N';
+	margin-top:0.38rem;
+	margin-left:-0.5rem;
+}
+.cover>.dingdan>.last{
+	width:5.12rem;
+	height:0.76rem;
+	margin:0 auto;
+	margin-top:0.9rem;	
+}
+.cover>.dingdan>.last>div{
+	width:2.56rem;
+	height:0.76rem;
+	background-image:	
+	font-size:0.2rem;
+	color:#867777;
+	text-align:center;
+	padding-top:0.12rem;
+	box-sizing:border-box;
+	float:left;
+}
+.cover>.dingdan>.last>div:last-child{
+	font-size:0.14rem;
+	color:#c0b9b9;
+}
+.cover>.dingdan>.last>.active{
+	background-image:url('../img/lp/lp-pay-1-26.png');
+	background-size:100%;
+	background-position:center;
+	color:#7b5e20;
+}
+.cover>.dingdan>.last>.active:last-child{
+	font-size:0.14rem;
+	color:#866407;
+}

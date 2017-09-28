@@ -1,0 +1,123 @@
+/*header*/
+.lp-header{
+	width:7.5rem;
+	height:3.47rem;
+	background-image:url('../img/lp/lp-pay-3-14.png');
+	background-size:100%;
+	background-position:center;
+}
+.lp-header>.cover{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+	position:relative;
+}
+.lp-header>.cover>a{
+	width:0.34rem;
+	height:1rem;
+	background:red;
+}
+.lp-header>.cover>a>.return{
+	width:0.34rem;
+	margin-top:0.25rem;
+	margin-left:0.44rem;
+	float:left;
+}
+.lp-header>.cover>.message{
+	height:0.5rem;
+	margin-top:0.25rem;
+	margin-left:2rem;
+	float:left;
+}
+.lp-header>.cover>.card{
+	width:5.18rem;
+	position:absolute;
+	top:1.47rem;
+	left:1.19rem;
+}
+.lp-header>.cover>.id{
+	font-size:0.24rem;
+	color:#9b9b9b;
+	position:absolute;
+	top:2.6rem;
+	left:2.3rem;
+}
+/*body*/
+.lp-body{
+	width:7.5rem;
+	height:8.87rem;
+	padding-top:1.6rem;
+	box-sizing:border-box;
+}
+.lp-body>.new{
+	width:7.5rem;
+}
+.lp-body>.form{
+	width:7.5rem;
+	height:3.61rem;
+	margin-top:0.3rem;
+	background-image:url('../img/lp/lp-pay-3-21.png');
+	background-size:100%;
+	padding-top:0.08rem;
+	background-repeat:no-repeat;
+}
+.lp-body>.form>form{
+	width:5.8rem;
+	height:2.77rem;
+	margin-left:1.6rem;
+}
+.lp-body>.form>form>div{
+	width:5.8rem;
+	height:0.48rem;
+	margin-top:0.26rem;
+	line-height:0.48rem;
+}
+.lp-body>.form>form>div>input{
+	border:none;
+	outline:none;	
+	font-size:0.2rem;
+	color:#b8b8b8;	
+	width:4.8rem;
+	height:0.48rem;
+	background:rgba(0,0,0,0);
+	float:left;
+}
+.lp-body>.form>form>div>img{
+	float:right;
+	width:0.24rem;
+	margin-top:0.1rem;
+	margin-right:0.6rem;
+}
+.lp-body>.form>form>div:first-child{
+	margin-top:0;
+}
+.lp-body>.form>.sure1{
+	width:0.24rem;
+	margin-top:0.5rem;
+	margin-left:0.8rem;	
+}
+.lp-body>.form>.sure2{
+	width:0.24rem;
+	margin-top:0.5rem;
+	margin-left:0.8rem;	
+}
+.lp-body>.form>.active{
+	display:none;
+}
+/*底部*/
+.lp-footer{
+	display:block;
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	bottom:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:0.1rem 0.1rem 0 0;
+}
+.lp-footer>img{
+	height:0.48rem;
+}

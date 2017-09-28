@@ -1,0 +1,250 @@
+@mixin padding{
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+html,body{
+    background: #f7f7f7;
+    height: 100%;
+}
+.zhc-header{
+    width: 100%;
+    height: 1rem;
+    background: #e21f56;
+    margin-bottom: 0.2rem;
+    .zhc-headerbottom{
+        width: 100%;
+        height: 1rem;
+        background: #f62466;
+        @include padding;
+        padding-top: 0.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            display: block;
+            width: 1.66rem;
+            height: 0.88rem;
+            float: left;
+            img{
+                width: 90%;
+            }
+        }
+        a{
+            display: block;
+            width: 0.66rem;
+            height: 0.5rem;
+            float: left;
+            img{
+               height: 100%;
+            }
+        }
+        div{
+            width: 0.66rem;
+            height: 0.5rem;
+            float: left;
+        }
+    }
+}
+@keyframes mov{
+    0{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes movs{
+    0{
+        right: 0.3rem
+    }
+    100%{
+        right: 0.08rem
+    }
+}
+@mixin lis{
+    background: #fff;
+    border-radius: 0.08rem;
+    width: 100%;
+    height: 1.1rem;
+    margin-bottom: 0.1rem;
+    padding-left: 1.1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+main{
+    width: 100%;
+    height: auto;
+    @include padding;
+    .zhc-zl-one{
+        @include lis;
+        .zhc-icon{
+            position: absolute;
+            top: 50%;
+            margin-top: -0.23rem;
+            left: 0.24rem;
+            width: 0.46rem;
+            height: 0.46rem;
+            img{
+                width: 100%;
+            }
+        }
+        .li-left{
+            float: left;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            div:first-child{
+                height: 0.4rem;
+                width: 100%;
+                font-size: 0.24rem;
+                color: #21212c;
+            }
+            div:nth-child(2){
+                width: 2.2rem;
+                height: 0.04rem;
+                background: url(../img/zhc/zhc-ziliao1_07.png);
+                background-size: cover;
+            }
+            div:last-child{
+                height: 0.4rem;
+                width: 100%;
+                font-size: 0.2rem;
+                color: #9e9e9e;
+            }
+        }
+        .li-right{
+            float: right;
+            width: 40%;
+            height: 100%;
+            line-height: 1.1rem;
+            position: relative;
+            text-align: center;
+            b{
+                font-size: 12px;
+                color: #222;
+            }
+            span{
+                font-size: 12px;
+                color: #666;
+                margin-right: 0.4rem;
+            }
+            a{
+                position: absolute;
+                right: 0.2rem;
+                top: 50%;
+                margin-top: -0.2rem;
+                display: block;
+                font-family: '宋体';
+                font-size: 0.28rem;
+                font-weight: bold;
+                color: #acacac;
+                width: 0.4rem;
+                height: 0.4rem;
+                line-height: 0.4rem;
+                text-align: center;
+            }
+        }
+    }
+    .zhc-zl-two{
+        @include lis;
+        
+        .li-left{
+            float: left;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            div:first-child{
+                height: 0.4rem;
+                width: 100%;
+                font-size: 0.24rem;
+                color: #21212c;
+            }
+            div:nth-child(2){
+                width: 2.2rem;
+                height: 0.04rem;
+                background: url(../img/zhc/zhc-ziliao1_07.png);
+                background-size: cover;
+            }
+            div:last-child{
+                height: 0.4rem;
+                width: 100%;
+                font-size: 0.2rem;
+                color: #9e9e9e;
+            }
+        }
+        .li-right{
+            float: right;
+            width: 40%;
+            height: 100%;
+            line-height: 1.1rem;
+            position: relative;
+            text-align: center;
+           >div{
+               width: 0.8rem;
+               height: 0.4rem;
+               background: #5d5d6e;
+               position: absolute;
+               right: 0.2rem;
+               top: 50%;
+               margin-top: -0.2rem;
+               border-radius: 0.6rem;
+               overflow: hidden; 
+               .zhc-right-full{
+                   width: 0;
+                   height: 100%;
+                   background: #ff3f6f;
+                   border-radius: 0.6rem;
+                   transition: width 0.2s ease;
+               }
+               .zhc-right-circle{
+                   width: 0.24rem;
+                   height: 0.24rem;
+                   border-radius:50%;
+                   background: #fff;
+                   position: absolute;
+                   right: 0.5rem;
+                   top: 0.08rem;
+                   transition: transform 0.2s ease;
+               }
+           }
+        }
+        .zhc-icon{
+            position: absolute;
+            top: 50%;
+            margin-top: -0.23rem;
+            left: 0.24rem;
+            width: 0.46rem;
+            height: 0.46rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+.zhc-sub{
+    width: 6.44rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../img/zhc/zhc-sub_11.png);
+        background-size: cover;
+    }
+}
+}
+
+body main .zhc-zl-two .li-right > div .move{
+//                 animation: mov 0.2s linear forwards; 
+       width: 100%;
+   }
+  body main .zhc-zl-two .li-right > div .moves{
+//                 animation: movs 0.2s linear forwards;
+        transform: translateX(0.44rem);
+   }
+  

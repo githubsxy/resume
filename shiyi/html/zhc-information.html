@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>拾忆·好友动态</title>
+	</head>
+	<script type="text/javascript" src="../js/jquery.js" ></script>
+	<script type="text/javascript" src="../js/zhc-info.js" ></script>
+	<script type="text/javascript" src="../js/iscroll.js" ></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/zhc-information.css" />
+	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript">
+
+		var myScroll;
+		
+		function loaded () {
+			myScroll = new IScroll('#wrapper', {
+				scrollbars: true,
+				mouseWheel: true,
+				interactiveScrollbars: true,
+				shrinkScrollbars: 'scale',
+				fadeScrollbars: true
+			});
+		}
+
+	</script>
+	<style type="text/css">
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+		html {
+			-ms-touch-action: none;
+		}
+		
+		body,ul,li {
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+		
+		body {
+			font-size: 12px;
+			font-family: ubuntu, helvetica, arial;
+			overflow: hidden; /* this is important to prevent the whole page to bounce */
+		}
+		
+		
+		#footer {
+			position: absolute;
+			z-index: 2;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 48px;
+			background: #444;
+			padding: 0;
+		}
+		
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			bottom: 48px;
+			left: 0;
+			width: 100%;
+			background: #f7f7f7;
+			overflow: hidden;
+		}
+		
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+			-o-text-size-adjust: none;
+			text-size-adjust: none;
+		}
+
+</style>
+	<body onload="loaded()">
+	<div id="wrapper">
+	<div id="scroller">
+		<header class="zhc-header">
+			<div class="zhc-zhe"><img src="../img/zhc/zhc-zhezhao.png"</div>
+			<div class='zhc-headerbottom' id="header">
+				<a href="zhc-preson.html"><img src="../img/zhc/zhc-back_03.png"></a>
+				<span>
+					<b>Jim</b><i>.Green</i>
+					<img src="../img/zhc/zhc-mei.png" />
+				</span>
+				<a href="zhc-management.html"><img src="../img/zhc/zhc-mess.png"></a> 
+			</div>
+			<!--<div class="zhc-headertop"></div>-->
+<!--			<div class="zhc-topxian"></div>-->
+			<div class="zhc-zan">
+				<h1>
+					<img src="../img/zhc/zhc-love_16.png" />
+					<span>0</span>
+					<!--<i>+1</i>-->
+				</h1>
+				<div></div>
+			</div>
+			<div class="zhc-svip"></div>
+			<p>人生不止眼前的苟且，还有诗和远方···</p>
+			<div class="zhc-people"></div>
+			<div class="zhc-ppbox"></div>
+			<div class="zhc-circle"></div>
+			<div class="zhc-circles"></div>
+			<div class="zhc-circletwo"></div>
+			<div class="zhc-circlestwo"></div>
+		</header>
+		<section class="zhc-biaoti"></section>
+		<ul class="zhc-hydt">
+			<li>
+				<div class="zhc-dt-china">
+					<i></i>
+					<span>曾经和朋友一起仰望星空，随之我们泪33333</span>
+				</div>
+				<div class="zhc-dt-English">Ever look up at the starry sky with friends then our tears</div>
+				<div class="zhc-picture">
+					<div class='zhc-p1'></div>
+					<div class="zhc-ps">
+						<div class="zhc-p2"><img src="../img/zhc/zhc-p2_03.png"></div>
+						<div class='zhc-p2s'><img src="../img/zhc/zhc-p2s_06.png"></div>
+					</div>
+				</div>
+				<div class="zhc-pinlun">
+					<div class="zhc-pin1">
+						<img src="../img/zhc/zhc-pin1.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin2">
+						<img src="../img/zhc/zhc-pin2.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin3">
+						<img src="../img/zhc/zhc-pin3.png" />
+						<img src="../img/zhc/zhc-pin4.png" />
+						<img src="../img/zhc/zhc-pin5.png" />
+					</div>
+				</div>
+				<div class="zhc-tiao"></div>
+				<div class="zhc-watch">
+					<span>2017/4/13</span>
+					<img src="../img/zhc/zhc-watch_25.png" />
+				</div>
+			</li>
+			<li>
+				<div class="zhc-dt-china">
+					<i></i>
+					<span>曾经和朋友一起仰望星空，随之我们泪33333</span>
+				</div>
+				<div class="zhc-dt-English">Ever look up at the starry sky with friends then our tears</div>
+				<div class="zhc-picture">
+					<div class='zhc-p1'></div>
+					<div class="zhc-ps">
+						<div class="zhc-p2"><img src="../img/zhc/zhc-p2_03.png"></div>
+						<div class='zhc-p2s'><img src="../img/zhc/zhc-p2s_06.png"></div>
+					</div>
+				</div>
+				<div class="zhc-pinlun">
+					<div class="zhc-pin1">
+						<img src="../img/zhc/zhc-pin1.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin2">
+						<img src="../img/zhc/zhc-pin2.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin3">
+						<img src="../img/zhc/zhc-pin3.png" />
+						<img src="../img/zhc/zhc-pin4.png" />
+						<img src="../img/zhc/zhc-pin5.png" />
+					</div>
+				</div>
+				<div class="zhc-tiao"></div>
+				<div class="zhc-watch">
+					<span>2017/4/13</span>
+					<img src="../img/zhc/zhc-watch_25.png" />
+				</div>
+			</li>
+			<li>
+				<div class="zhc-dt-china">
+					<i></i>
+					<span>曾经和朋友一起仰望星空，随之我们泪33333</span>
+				</div>
+				<div class="zhc-dt-English">Ever look up at the starry sky with friends then our tears</div>
+				<div class="zhc-picture">
+					<div class='zhc-p1'></div>
+					<div class="zhc-ps">
+						<div class="zhc-p2"><img src="../img/zhc/zhc-p2_03.png"></div>
+						<div class='zhc-p2s'><img src="../img/zhc/zhc-p2s_06.png"></div>
+					</div>
+				</div>
+				<div class="zhc-pinlun">
+					<div class="zhc-pin1">
+						<img src="../img/zhc/zhc-pin1.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin2">
+						<img src="../img/zhc/zhc-pin2.png" />
+						<span>66</span>
+					</div>
+					<div class="zhc-pin3">
+						<img src="../img/zhc/zhc-pin3.png" />
+						<img src="../img/zhc/zhc-pin4.png" />
+						<img src="../img/zhc/zhc-pin5.png" />
+					</div>
+				</div>
+				<div class="zhc-tiao"></div>
+				<div class="zhc-watch">
+					<span>2017/4/13</span>
+					<img src="../img/zhc/zhc-watch_25.png" />
+				</div>
+			</li>
+		</ul>
+	</div>
+	</div>
+		<footer class="zhc-call" id="footer">
+			<a href="ly2.html"></a>
+		</footer>
+	</body>
+</html>

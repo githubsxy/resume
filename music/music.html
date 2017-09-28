@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>音乐播放器</title>
+		<link rel="stylesheet" href="css/music.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/music.js"></script>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	</head>
+	<body>
+		<div id="box">
+			<audio src="music/陈一发儿 - 童话镇.mp3"></audio>
+			<div class="list">
+				<div class="caidan">
+					<h2>播放列表</h2>
+					<ul class="title">
+						<li>播放</li>
+						<li>歌名</li>
+						<li>作者</li>
+						<li>专辑</li>
+						<li>功能</li>
+					</ul>
+					<ul class="mess">
+					
+					</ul>
+				</div>
+			</div>
+			<canvas id="" width="800px" height="250px"></canvas>
+			<div class="button">
+				<ul	class="function">
+					<li class="previous">
+						<span class="iconfont icon-iconfonticoncopy"></span>
+					</li>
+					<li class="play">
+						<span class="iconfont icon-bofang1"></span>
+					</li>
+					<li class="next">
+						<span class="iconfont icon-icon-copy"></span>
+					</li>
+				</ul>
+				<div class="icon"></div>
+				<div class="state">
+					<div class="author">
+						<span>薛之谦</span>
+						<span>------</span>
+						<span>演员</span>
+					</div>
+					<div class="progress">
+						<div class="tiao">
+							<div class="jindu">
+								<div class="jin"></div>
+								<div class="load"></div>
+								<div class="played"></div>
+								<div class="circle"></div>
+							</div>
+						</div>
+						<div class="time">
+							<span>00:00</span>
+							<span>/</span>
+							<span>00:00</span>
+						</div>
+					</div>
+				</div>
+				<div class="volume">
+					<div class="icon">
+						<span class="iconfont icon-yinliang"></span>
+					</div>
+					<div class="tiao">
+						<div class="jindu">
+							<div class="jin"></div>
+							<div class="load"></div>
+							<div class="played"></div>
+							<div class="circle"></div>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<span class="iconfont icon-icon68"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/main.js"></script>

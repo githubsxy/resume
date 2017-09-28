@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>denglu</title>
+	<script src="../js/common.js"></script>
+	<script src="../js/jquery.js"></script>
+	<link rel="stylesheet" href="../css/common.css" />
+	<script src="../js/jquery.validate.js"></script>
+</head>
+<style>
+	html,body{
+		width: 100%;
+		height: auto;
+	}
+	.return{
+		position: absolute;
+		top: 0.35rem;
+		width: 0.35rem;
+		left: 0.5rem;
+	}
+	.logo{
+		position: absolute;
+		right: 0.1rem;
+		top: 0.2rem;
+		width: 1.63rem;
+	}
+	.logo1{
+		margin-top: 10%;
+		margin-left: 33%;
+		width:2.25rem;
+	}
+	.wenzi1{
+		margin-left: -5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: -0.5rem;
+		display: block;
+	}
+	.wenzi2{
+		font-size: 12px;
+		margin-top: 10%;
+		text-align: center;
+		display: block;
+	}
+	.wenzi2 span{
+		font-weight: bold;
+	}
+	.dian{
+		font-size: 10px;
+		margin-left: 40%;
+		color: gray;
+		display: block;
+	}
+	.dian .dian1{
+		color: black;
+	}
+	.form{
+		width: 6.05rem;
+		height: 2.3rem;
+		margin-top: 5%;
+		margin-left: 10%;
+		border: 1px solid #d6d6d6;
+		border-top:2px solid #f32175;
+		border-radius: 8%;
+		z-index: 10;
+	}
+	form{
+		position: relative;
+		background: #fff;
+	}
+	.input1{
+		position: absolute;
+		left: 20%;
+		outline: none;
+		border: none;
+		height: 30%;
+		margin-top: 0.7rem;
+		width: 75%;
+		font-size: 10px;
+		color: gainsboro;
+	}
+	.input2{
+		position: relative;
+		top: 70px;
+		width: 75%;
+		left: 20%;
+		outline: none;
+		border: none;
+		height: 40px;
+	}
+	.yh{
+		width: 0.56rem;
+		position: absolute;
+		top: 60%;
+		left: 5%;
+	}
+	.line{
+		position: absolute;
+		width: 5.37rem;
+		top: 70%;
+		left: 5%;
+	}
+	.pass{
+		position: absolute;
+		width: 0.56rem;
+		top: 170%;
+		left: 5%;
+	}
+	.yhm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		color: grey;
+		top:40%;
+	}
+	.mm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 150%;
+		z-index: 5;
+		color: grey;
+	}
+	#cat{
+		margin-left: 0.75rem;
+		width: 0.5rem;
+		height: 0.5rem;
+		/*background: green;*/
+	}
+	.re{
+		font-size: 12px;
+		margin-left: -0.5rem;
+		color: gainsboro;
+		bottom: 38%;
+	}
+	.re1{
+		font-size: 12px;
+		color: gainsboro;
+		margin-left: 45%;
+		bottom: 38%;
+	}
+	.liji{
+		width: 2.75rem;
+		margin-top: 0.5rem;
+		margin-left: 2rem;
+		display: block;
+	}
+	.fang{
+		font-size: 14px;
+		margin-top: 5%;
+		margin-left: 33%;
+		display: block;
+	}
+	.lijidenglu1 img{
+		width: 1.4rem;
+		margin-bottom:-8.6rem;
+		margin-left:-4.5rem;
+		
+	}
+	.lijidenglu2 img{
+		width: 1.4rem;
+		top:20%;
+	}
+	.thr{
+		margin: 0 auto;
+		margin-left: 1rem;
+		margin-top: 0.5rem;
+	}
+	.three1,.three2,.three3{
+		width: 0.72rem;
+		margin-left: 0.6rem;
+	}
+</style>
+<body>
+	<a href="index.html">
+		<img src="../img/lg/return.gif" alt="" class="return"/>
+	</a>
+	<a href="zhuce.html">
+		<img src="../img/lg/logo_01_03.png" alt="" class="logo"/>
+	</a>
+	<img src="../img/lg/logo_01_11.png" alt="" class="logo1"/>
+	<span class="wenzi1">拾 × 忆</span>
+	<span class="wenzi2">answe outh <span>Seak to us of friend</span> needs answe</span>
+	<span class="dian"><span class="dian1">.</span>...................<span class="dian1">.</span></span>
+	<div class="form">
+		<form action="" id="aa">
+			<img src="../img/lg/kk_07.png" alt="" class="yh"/> 
+			<span class="yhm">ACCOUNT</span>
+			<input type="text" name="zhanghao" id="text" class="input1" placeholder="请输入账号或者手机号邮箱">
+        <img src="../img/lg/kk_11.png" alt="" class="pass"/>
+        <span class="mm">PASSWORD</span>
+        <input type="password" name="mima" id="pass" class="input2" placeholder="请输入密码">
+		</form>
+	</div>
+	<input type="radio"   id="cat"   name="cat"   value="1"   onclick= "if(this.c==1){this.c=0;this.checked=0}else{this.c=1}"   c="0"/>
+	<span class="re">记住密码</span>
+	<span class="re1">忘记密码?</span>
+	<a href="javascript:;">
+		<img src="../img/lg/dlb.png" alt="" class='liji'/>
+	</a>
+	<span class="fang">  其他登陆方式  </span>
+	<div class="thr">
+		<a href="javascript:;"><img src="../img/lg/weixin_24.gif" alt="" class="three1"/></a>
+		<a href="javascript:;"><img src="../img/lg/weixin_19.gif" alt="" class="three2"/></a>
+		<a href="javascript:;"><img src="../img/lg/weixin_21.png" alt="" class="three3"/></a>
+	</div>
+	<script>
+		$('#aa').validate({
+			 rules:{
+            zhanghao: {
+                required:true
+            },
+            mima:{
+                required:true,
+                minlength:5
+            }
+        },
+        messages:{
+            zhanghao:{
+                required:'请输入'
+            },
+            mima:{
+                required:'请输入密码',
+                minlength:'请输入长度大于5'
+            }
+        },
+        errorElement:'span',
+         errorPlacement:function (error,val) {
+            error.css('font-size','10px').insertAfter(val);
+            error.css('color','red').insertAfter(val);
+            error.css('position','absolute').insertAfter(val);
+            error.css('left','65%').insertAfter(val);
+            error.css('top','200%').insertAfter(val);
+            if($(val).next('b').length==0){
+//              $('<b>').html('错了').insertAfter(val);
+            }
+        },
+        success:function (val,val1) {
+            if($(val1).next('i').length==0){
+//              $('<i>').html('对了').insertAfter(val1);
+            }
+        }
+		})
+		
+		$("#aa").keyup(function(){
+
+			if($("#text").val()=='666666'&&$("#pass").val()=='666666'){		
+				$('.liji')[0].addEventListener('touchstart',function(){
+				location.href='https://htmlpreview.github.io/?https://github.com/shiyi207/shiyi/blob/master/html/zhc-Center.html'
+		})
+			}
+  	})
+		
+</script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+body {
+  overflow: auto;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%; }
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.zhc-header {
+  width: 100%;
+  height: 4.4rem;
+  background: url(../img/zhc/zhc-backimg.png);
+  background-size: cover;
+  position: relative; }
+  .zhc-header .zhc-zhe {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+    .zhc-header .zhc-zhe > img {
+      width: 100%;
+      height: 100%; }
+  .zhc-header .zhc-headerbottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .zhc-header .zhc-headerbottom span {
+      display: block;
+      width: 1.66rem;
+      height: 0.88rem;
+      float: left;
+      color: #fff;
+      text-align: center;
+      line-height: 0.88rem;
+      position: relative; }
+      .zhc-header .zhc-headerbottom span > img {
+        width: 100%;
+        position: absolute;
+        bottom: 0.1rem;
+        left: 0; }
+      .zhc-header .zhc-headerbottom span b {
+        font-size: 0.24rem;
+        font-weight: bold; }
+      .zhc-header .zhc-headerbottom span i {
+        font-size: 0.24rem;
+        font-style: normal; }
+    .zhc-header .zhc-headerbottom a {
+      display: block;
+      width: 0.66rem;
+      height: 0.5rem;
+      float: left; }
+      .zhc-header .zhc-headerbottom a > img {
+        height: 100%; }
+  .zhc-header .zhc-zan {
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    height: 0.7rem;
+    position: absolute;
+    top: 1.48rem;
+    left: 0; }
+    .zhc-header .zhc-zan h1 {
+      position: relative;
+      float: left;
+      width: 1.4rem;
+      height: 0.6rem;
+      padding: 0.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 0.4rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      overflow: hidden; }
+      .zhc-header .zhc-zan h1 img {
+        width: 0.32rem;
+        height: 0.28rem;
+        margin-right: 0.2rem; }
+      .zhc-header .zhc-zan h1 span {
+        font-size: 0.24rem;
+        color: #d4d4d4; }
+    .zhc-header .zhc-zan div {
+      float: right;
+      width: 0.7rem;
+      height: 100%;
+      background: url(../img/zhc/zhc-send.png);
+      background-size: 100%; }
+  .zhc-header .zhc-svip {
+    width: 0.58rem;
+    height: 0.46rem;
+    position: absolute;
+    top: 2.56rem;
+    left: 50%;
+    margin-left: -0.23rem;
+    background: url(../img/zhc/zhc-svip_21.png);
+    background-size: 100%; }
+  .zhc-header p {
+    width: 100%;
+    height: 0.4rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    position: absolute;
+    top: 3.1rem;
+    left: 0; }
+  .zhc-header .zhc-people {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #fdcf1b;
+    border-radius: 0.08rem;
+    position: absolute;
+    bottom: -0.65rem;
+    left: 50%;
+    margin-left: -0.65rem;
+    transform: rotate(30deg); }
+  .zhc-header .zhc-ppbox {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 0.08rem;
+    position: absolute;
+    bottom: -0.65rem;
+    left: 50%;
+    margin-left: -0.65rem;
+    border: 2px solid #fff;
+    background: url(../img/zhc/zhc-people1_03.png);
+    background-size: 100%; }
+  .zhc-header .zhc-circle {
+    border-radius: 50%;
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fdcf1b;
+    left: 4.6rem;
+    bottom: -0.46rem; }
+  .zhc-header .zhc-circles {
+    border-radius: 50%;
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fdcf1b;
+    left: 4.8rem;
+    bottom: -0.4rem; }
+  .zhc-header .zhc-circletwo {
+    border-radius: 50%;
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fdcf1b;
+    left: 2.9rem;
+    bottom: 0.5rem; }
+  .zhc-header .zhc-circlestwo {
+    border-radius: 50%;
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #fdcf1b;
+    left: 2.8rem;
+    bottom: 0.65rem; }
+
+.zhc-biaoti {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1.1rem;
+  background: url(../img/zhc/zhc-biaoti_25.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.zhc-hydt {
+  width: 100%;
+  height: auto;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem; }
+  .zhc-hydt li {
+    width: 5.8rem;
+    height: 3.7rem;
+    margin-left: 1.2rem;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    border-left: 1px solid #e0e0e0;
+    position: relative;
+    padding-top: 0.2rem; }
+    .zhc-hydt li .zhc-dt-china {
+      width: 100%;
+      height: 0.4rem;
+      line-height: 0.4rem; }
+      .zhc-hydt li .zhc-dt-china i {
+        display: inline-block;
+        width: 0.4rem;
+        height: 100%;
+        background: url(../img/zhc/zhc-words_03.png);
+        background-repeat: no-repeat; }
+      .zhc-hydt li .zhc-dt-china span {
+        display: inline-block;
+        font-size: 0.24rem;
+        color: #333;
+        width: 4rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+    .zhc-hydt li .zhc-dt-English {
+      width: 100%;
+      height: 0.28rem;
+      line-height: 0.28rem;
+      font-size: 0.24rem;
+      color: #7c7a88;
+      white-space: normal;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .zhc-hydt li .zhc-picture {
+      width: 100%;
+      height: 2.36rem; }
+      .zhc-hydt li .zhc-picture .zhc-p1 {
+        float: left;
+        width: 3.08rem;
+        height: 100%;
+        background: url(../img/zhc/zhc-p1_03.png);
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .zhc-hydt li .zhc-picture .zhc-ps {
+        float: right;
+        width: 1.8rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .zhc-hydt li .zhc-picture .zhc-ps div {
+          width: 100%;
+          height: 48%; }
+          .zhc-hydt li .zhc-picture .zhc-ps div img {
+            height: 100%;
+            width: 100%; }
+    .zhc-hydt li .zhc-pinlun {
+      width: 100%;
+      height: 0.46rem;
+      display: flex; }
+      .zhc-hydt li .zhc-pinlun .zhc-pin1 {
+        width: 1.5rem;
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin1 img {
+          width: 0.34rem;
+          height: 0.34rem;
+          margin-right: 0.1rem; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin1 span {
+          font-size: 0.24rem;
+          color: #605d73; }
+      .zhc-hydt li .zhc-pinlun .zhc-pin2 {
+        width: 1.5rem;
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin2 img {
+          width: 0.34rem;
+          height: 0.34rem;
+          margin-right: 0.1rem; }
+      .zhc-hydt li .zhc-pinlun .zhc-pin3 {
+        width: 3rem;
+        height: 100%; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin3 img:first-child {
+          width: 0.34rem;
+          height: 0.34rem;
+          position: absolute;
+          bottom: 0.03rem;
+          right: 0.6rem; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin3 img:nth-child(2) {
+          width: 0.34rem;
+          height: 0.34rem;
+          position: absolute;
+          bottom: 0.03rem;
+          right: 0.4rem; }
+        .zhc-hydt li .zhc-pinlun .zhc-pin3 img:nth-child(3) {
+          width: 0.34rem;
+          height: 0.34rem;
+          position: absolute;
+          bottom: 0.03rem;
+          right: 0.2rem; }
+    .zhc-hydt li .zhc-tiao {
+      width: 5rem;
+      height: 0.06rem;
+      background: url(../img/zhc/zhc-fengexian_26.png);
+      background-size: cover;
+      position: absolute;
+      left: 0.4rem;
+      bottom: -0.06rem; }
+    .zhc-hydt li .zhc-watch {
+      width: 1.4rem;
+      height: 0.22rem;
+      position: absolute;
+      top: 0.3rem;
+      right: 5.66rem;
+      line-height: 0.22rem; }
+      .zhc-hydt li .zhc-watch span {
+        font-size: 0.24rem;
+        color: #3d3d47; }
+      .zhc-hydt li .zhc-watch img {
+        float: right;
+        width: 0.22rem;
+        height: 0.22rem; }
+
+.zhc-call {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem; }
+  .zhc-call a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/zhc/zhc-call_29.png);
+    background-size: 100%; }

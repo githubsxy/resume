@@ -1,0 +1,157 @@
+body{
+	background:#f7f7f7;
+}
+/*头部*/
+.lp-header{
+	width:7.52rem;
+	height:7.2rem;	
+	/*position:fixed;
+	top:0;
+	left:0;*/
+	/*z-index:100;*/
+	background-image:url('../img/lp/lp-pay-4-1.png');
+	background-size:100%;
+}
+.lp-header>.cover{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+}
+.lp-header>.cover>.line1{
+	width:100%;
+	height:1rem;
+}
+.lp-header>.cover>.line1>.left>.return{
+	width:0.34rem;
+	margin-top:0.25rem;
+	margin-left:0.44rem;
+	float:left;
+}
+.lp-header>.cover>.line1>.message{
+	height:0.5rem;
+	margin-top:0.25rem;
+	margin-left:2rem;
+	float:left;
+}
+.lp-header>.cover>.line1>.right>.return{
+	height:0.4rem;
+	margin-top:0.25rem;
+	margin-right:0.44rem;
+	float:right;
+}
+.lp-header>.cover>.line2{
+	width:100%;
+	height:5.12rem;  
+	text-align:center;
+	position:relative;
+}
+.lp-header>.cover>.line2>.avatar{
+	width:1.82rem;
+	margin-top:1rem;
+}
+.lp-header>.cover>.line2>.letter{
+	margin-top:0.1rem;
+	font-size:0.32rem;
+}
+.lp-header>.cover>.line2>.letter>span:first-child{
+	color:#ffffff;
+	font-weight:bold;
+}
+.lp-header>.cover>.line2>.letter>span:last-child{
+	color:#dadad9;
+	font-weight:bold;
+}
+.lp-header>.cover>.line2>.sign{
+	display:block;
+	width:0.21rem;
+	margin-top:0.2rem;
+	margin-left:3.59rem;
+}
+.lp-header>.cover>.line2>.card{
+	margin-top:0.6rem;
+	margin-left:0.42rem;
+	width:5.16rem;
+	float:left;
+}
+.lp-header>.cover>.line2>.number{
+	position:absolute;
+	top:5.6rem;
+	left:2.2rem;
+	color:#707070;
+}
+.lp-header>.cover>.line2>.rectl{
+	width:0.77rem;
+	height:2.88rem;
+	border-radius:0 0.1rem 0.1rem 0;
+	background:#fff;
+	box-shadow:0 0 0.2rem 0 #d0cdcd;
+	margin-top:0.83rem;
+	float:left;
+}
+.lp-header>.cover>.line2>.rectr{
+	width:0.77rem;
+	height:2.88rem;
+	border-radius:0.1rem 0 0 0.1rem;
+	background:#fff;
+	box-shadow:0 0 0.2rem 0 #d0cdcd;
+	margin-top:0.83rem;
+	float:right;
+}
+/*body*/
+.body{
+	width:7.5rem;
+	height:3.14rem;
+	border-radius:0.1rem 0.1rem 0 0;
+	margin-top:2rem;
+	padding-top:0.18rem;
+	background:#fff;
+	box-sizing:border-box;
+	/*margin-bottom:1rem;*/
+}
+.body>.img{
+	width:100%;
+	height:2.37rem;
+	background-image:url('../img/lp/lp-pay-4-8.png');
+	background-size:100%;
+	background-position:center;
+}
+.body>.img>form{
+	width:4.2rem;
+	height:2.37rem;
+	margin-left:2rem;
+}
+.body>.img>form>div{
+	width:100%;
+	height:0.48rem;
+	float:left;
+	margin-top:0.32rem;
+	line-height:0.48rem;	
+}
+.body>.img>form>div:first-child{
+	margin-top:0;
+}
+.body>.img>form>div>input{
+	border:none;
+	outline:none;
+	background:rgba(0,0,0,0);
+	width:4rem;
+	color:#707070;
+	font-size:0.24rem;
+}
+/*底部*/
+.lp-footer{
+	display:block;
+	width:100%;
+	height:1rem;
+	background:#f62466;
+	position:fixed;
+	left:0;
+	bottom:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:0.1rem 0.1rem 0 0;
+}
+.lp-footer>img{
+	height:0.48rem;
+}

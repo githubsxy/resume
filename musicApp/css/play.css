@@ -1,0 +1,100 @@
+body{
+    height: 13.34rem;
+    padding: 0 0.24rem;
+    background-color: #0a111c;
+}
+header{
+    height:0.88rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+header .left{
+    display: block;
+    width: 0.66rem;
+    height: 0.88rem;
+}
+header .left img{
+    width:0.66rem;
+}
+header .right{
+    display: block;
+    width: 0.66rem;
+    height: 0.88rem;
+}
+header .right img{
+    width:0.66rem;
+}
+/*播放*/
+.name{
+    text-align: center;
+}
+.name h1{
+    font-size: 0.4rem;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+.name h2{
+    font-size: 0.4rem;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 0.2rem;
+}
+.liwen{
+    border-radius: 50%;
+    width: 4rem;
+    margin:1rem 1.51rem;
+    border: 3px solid #e14b4b;
+    border-top:3px solid #437f8c;
+    border-left:3px solid #437f8c;
+}
+/*播放进度*/
+.plan{
+    display: flex;
+    justify-content: space-around;
+}
+.plan p{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.plan div{
+    width: 5.6rem;
+    height: 2px;
+    background-color: #9a9595;
+    margin: 0.11rem;
+    position: relative;
+}
+.plan div:before{
+    content: "";
+    width: 2.8rem;
+    height: 2px;
+    background-color: #e14b4b;
+    position: absolute;
+    left:0;
+    top:0;
+}
+/*底部按钮*/
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.bottom a{
+    display: block;
+}
+.bottom a:first-child img{
+    width: 0.64rem;
+}
+.bottom a:last-child img{
+    width: 0.64rem;
+}
+.bottom a:nth-child(2) img{
+     width: 0.82rem;
+}
+.bottom a:nth-child(3) img{
+    width: 0.82rem;
+}
+.bottom a:nth-child(4) img{
+    width: 0.82rem;
+}

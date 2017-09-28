@@ -1,0 +1,567 @@
+@charset "UTF-8";
+.top {
+  width: 100%;
+  height: 1rem;
+  background: #F62466;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000000;
+}
+
+.topx {
+  width: 100%;
+  height: 1rem;
+  background: #F62466;
+  margin-top: 1rem;
+}
+
+.return {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-image: url(../img/ly/zfhx_04.png);
+  background-size: 0.5rem 0.5rem;
+  position: relative;
+  left: 0.25rem;
+  top: 0.3rem;
+}
+
+.return a {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.top > p {
+  width: 1.3rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.2rem;
+  left: 3.3rem;
+  font-size: 0.24rem;
+  font-family: '微软雅黑';
+  color: white;
+}
+
+.top > span {
+  dispaly: block;
+  width: 2.2rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 3.1rem;
+  font-size: 0.18rem;
+  font-family: hlvetica Neue LT Pro;
+  color: #FF6589;
+}
+
+.list {
+  width: 0.75rem;
+  height: 0.5rem;
+  background-image: url(../img/ly/zfhx_03.png);
+  background-size: 0.75rem 0.5rem;
+  position: absolute;
+  right: 0.25rem;
+  top: 0.3rem;
+}
+
+.list a {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.middle {
+  width: 100%;
+  height: 12rem;
+  background: #F7F7F6;
+  position: relative;
+}
+
+.bao {
+  width: 1.51rem;
+  height: 1.5rem;
+  background-position: center;
+  background-size: 2.04rem 1.95rem;
+  background-image: url(../img/ly/zfhx_11.png);
+  float: left;
+  margin-top: -0.8rem;
+  margin-left: 0.45rem;
+}
+
+.hat {
+  width: 1.95rem;
+  height: 1.5rem;
+  background-position: center;
+  background-size: 2.04rem 2rem;
+  background-image: url(../img/ly/zfhx_12.png);
+  float: left;
+  margin-top: -0.8rem;
+  margin-left: 0.45rem;
+}
+
+.more {
+  width: 1.8rem;
+  height: 1.5rem;
+  background-size: 2.04rem 2rem;
+  background-position: center;
+  background-image: url(../img/ly/zfhx_01.png);
+  float: left;
+  margin-top: -0.8rem;
+  margin-left: 0.45rem;
+}
+
+.shop {
+  width: 3.3rem;
+  height: 0.92rem;
+  background-size: 3.14rem 0.92rem;
+  background-position: center;
+  background-image: url(../img/ly/zfhx_18.png);
+  position: absolute;
+  left: 0.8rem;
+  top: 0.65rem;
+}
+
+.shop p {
+  font-size: 0.24rem;
+  color: white;
+  margin-left: 0.7rem;
+  margin-top: 0.12rem;
+}
+
+.shop span {
+  display: block;
+  font-size: 0.18rem;
+  margin-left: 0.7rem;
+  margin-top: 0.01rem;
+  color: #FF84A2;
+}
+
+.shop > span {
+  display: block;
+  font-size: 0.18rem;
+  margin-left: 0.7rem;
+  margin-top: 0.01rem;
+  color: #FF84A2;
+  margin-top: -0.03rem;
+}
+
+.message {
+  height: 4.8rem;
+  width: 6.66rem;
+  background: #FFFFFF;
+  position: absolute;
+  left: -0.4rem;
+  top: 0.7rem;
+  border-radius: 0.1rem;
+}
+
+.message .lei {
+  width: 3rem;
+  height: 0.8rem;
+  margin-top: 0.05rem;
+}
+
+.message .lei p {
+  width: 0.5rem;
+  height: 0.16rem;
+  font-size: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.message .lei span {
+  width: 4.0rem;
+  height: 0.13rem;
+  font-size: 0.18rem;
+  margin-top: 0.1rem;
+}
+
+.message .title {
+  width: 6.0rem;
+  height: 1.5rem;
+  margin-left: 0.33rem;
+  margin-top: 0.03rem;
+  position: relative;
+}
+
+.message .title p {
+  width: 1rem;
+  height: 0.32rem;
+  margin-top: 0rem;
+  margin-left: 0.2rem;
+  color: black;
+  float: left;
+}
+
+.message .title .circle {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #00EE9F;
+  float: left;
+  margin-top: 0.14rem;
+  margin-left: 0.1rem;
+}
+
+.message .title span {
+  display: block;
+  width: 4rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.5rem;
+  top: 0.35rem;
+  font-size: 0.18rem;
+}
+
+.message .title .ma {
+  width: 0.75rem;
+  height: 0.5rem;
+  background-position: center;
+  background-image: url(../img/ly/zfhx_21.png);
+  position: absolute;
+  right: -0.08rem;
+  top: 0.1rem;
+}
+
+.message .title input {
+  width: 5.8rem;
+  height: 0.7rem;
+  border-radius: 0.8rem;
+  background: #F7F7F6;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.05rem;
+  border: 1px solid #EFEEEC;
+  font-size: 0.2rem;
+  padding-left: 0.15rem;
+  outline: 0;
+
+}
+
+.message .leikuang {
+  width: 100%;
+  height: 0.9rem;
+  position: absolute;
+  bottom: 0;
+  left: 0.1rem;
+}
+
+.message .leikuang .leibie {
+  width: 1.67rem;
+  height: 0.9rem;
+  background-size: 1.67rem 0.9rem;
+  background-image: url(../img/ly/zfhx_29.png);
+  float: left;
+  margin-left: -0.20rem;
+}
+
+.message .leikuang .leibie p {
+  width: 0.8rem;
+  height: 0.35rem;
+  margin-left: 0.6rem;
+  margin-top: 0.18rem;
+}
+
+.message .leikuang .leibie div {
+  width: 1.4rem;
+  height: 0.45rem;
+  text-align: center;
+  margin-left: 0.15rem;
+  margin-top: 0.35rem;
+  font-size: 0.16rem;
+}
+
+.message .lei {
+  width: 6.0rem;
+  height: 1.6rem;
+  margin-left: 0.33rem;
+  margin-top: 0.03rem;
+  position: relative;
+}
+
+.message .lei p {
+  width: 2rem;
+  height: 0.32rem;
+  margin-left: 0.2rem;
+  color: black;
+  float: left;
+  font-size: 0.2rem;
+}
+
+.message .lei .circle-one {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #00EE9F;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: -0.6rem;
+}
+.message .lei .circle-two {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #00EE9F;
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: -0.8rem;
+}
+
+.message .lei span {
+  display: block;
+  width: 2.4rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.5rem;
+  top: 0.35rem;
+  font-size: 0.18rem;
+}
+
+.address {
+  width: 6.66rem;
+  height: 0.9rem;
+  background: #FFFFFF;
+  position: absolute;
+  left: -0.4rem;
+  top: 5.6rem;
+  z-index: 666;
+  border-radius: 0.1rem;
+}
+
+.address .dizhi {
+  width: 1rem;
+  height: 0.32rem;
+  margin-left: 0.5rem;
+  margin-top: 0.15rem;
+}
+
+.address span {
+  width: 2.0rem;
+  height: 0.32rem;
+  margin-left: 0.5rem;
+  display: block;
+}
+
+.address .yuan-one {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #00EE9F;
+  float: left;
+  margin-top: -0.50rem;
+  margin-left: 1.6rem;
+}
+
+.address .yuan-two {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #00EE9F;
+  float: left;
+  margin-top: -0.50rem;
+  margin-left: 1.8rem;
+}
+
+.address .dibiao {
+  width: 0.4rem;
+  height: 0.5rem;
+  background-position: center;
+  background-size: 0.62rem 0.62rem;
+  background-image: url(../img/ly/zfhx_40.png);
+  margin-top: -0.6rem;
+  margin-left: 6rem;
+}
+
+.map {
+  width: 6rem;
+  height: 2rem;
+  background-size: 6rem 2rem;
+  background-image: url(../img/ly/zfhx_43.png);
+  background-position: center;
+  position: absolute;
+  left: .0rem;
+  top: 6.4rem;
+}
+
+.choose {
+  width: 3.3rem;
+  height: 0.88rem;
+  background-size: 3.14rem 0.92rem;
+  background-position: center;
+  background-image: url(../img/ly/zfhx_18.png);
+  position: absolute;
+  left: 0rem;
+  top: 8.2rem;
+}
+
+.choose p {
+  font-size: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.choose div {
+  margin-top: 0.05rem;
+  margin-left: 0.7rem;
+  color: #FF7699;
+  font-size: 0.18rem;
+}
+
+.choose .sell {
+  width: 6.66rem;
+  height: 1.7rem;
+  background: white;
+  border: 1px solid #FCFCFB;
+  border-radius: 0.05rem;
+  position: absolute;
+  left: -1.1rem;
+  margin-top:-0.05rem;
+
+}
+
+.choose .sell .paimai {
+  width: 100%;
+  height: 0.7rem;
+  margin-left: -0.25rem;
+  margin-top: 0.1rem;
+}
+
+.choose .sell .paimai p {
+  color: #373841;
+  margin-top: 0.18rem;
+}
+
+.choose .sell .paimai span {
+  color: #D3CFCC;
+}
+
+.choose .sell .paimai .cirone {
+  background: #00EE9F;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  float: left;
+  margin-left: 1.8rem;
+  margin-top: -0.5rem;
+}
+
+.choose .sell .paimai .cirtwo {
+  background: #00EE9F;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  float: left;
+  margin-top: -0.5rem;
+  margin-left: 2.0rem;
+}
+
+.choose .sell .paimai .yjt {
+  width: 0.2rem;
+  height: 0.3rem;
+  font-family: '宋体';
+  font-size: 0.14rem;
+  color: #5A595D;
+  font-weight: bold;
+  float: right;
+  margin-right: 0.3rem;
+  margin-top: -0.6rem;
+}
+
+.bottom {
+  width: 100%;
+  height: 1rem;
+  background: #FF0054;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1005001;
+
+}
+
+.bottom .tu {
+  width: 0.66rem;
+  height: 0.66rem;
+  background-image: url(../img/ly/zfhx_05.png);
+  background-size: 0.60rem 0.6rem;
+  background-position: center;
+  float: left;
+  margin-left: 2.5rem;
+  margin-top: 0.18rem;
+}
+
+.bottom a {
+  display: block;
+  width: 100%;
+  height: 0.4rem;
+  font-size: 0.3rem;
+
+  margin-top: 0.15rem;
+  color: white;
+}
+
+.bottom span {
+  display: block;
+  width: 0.98rem;
+  height: 0.28rem;
+  margin-top: -0.02rem;
+  margin-left: 3.2rem;
+  font-size: 0.18rem;
+  color: #FF7799;
+}
+
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: #404140;
+  opacity: 0.9;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100000;
+}
+
+.egg {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/ly/zfhx_16.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 200000;
+}
+
+.pmk {
+  width: 7.5rem;
+  height: 7.11rem;
+  position: absolute;
+  bottom: 0.2rem;
+  z-index: 100001;
+  overflow: hidden;
+}
+
+.pmk .pm {
+  width: 7.5rem;
+  height: 7.11rem;
+  background-image: url(../img/ly/zfhx_06.png);
+  background-size: 7.5rem 7.11rem;
+  background-position: center;
+  position: absolute;
+  z-index: 100003;
+  left: 100%;
+}
+
+.yc {
+  display: none;
+}
+
+.xs {
+  display: block;
+}
+body{
+  margin-bottom:0.25rem;
+}

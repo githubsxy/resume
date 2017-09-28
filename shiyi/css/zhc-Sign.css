@@ -1,0 +1,100 @@
+html, body {
+  background: #f7f7f7;
+  height: 100%;
+}
+
+.zhc-header {
+  width: 100%;
+  height: 1rem;
+  background: #e21f56;
+}
+
+.zhc-header .zhc-headerbottom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: #f62466;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.zhc-header .zhc-headerbottom span {
+  display: block;
+  width: 1.66rem;
+  height: 0.88rem;
+  float: left;
+}
+
+.zhc-header .zhc-headerbottom span img {
+  width: 100%;
+}
+
+.zhc-header .zhc-headerbottom a {
+  display: block;
+  width: 0.66rem;
+  height: 0.5rem;
+  float: left;
+}
+
+.zhc-header .zhc-headerbottom a img {
+  height: 100%;
+}
+
+.zhc-floor1 {
+  width: 100%;
+  height: 2.2rem;
+  padding: 0.3rem 0;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.zhc-floor1 img {
+  width: 1.3rem;
+  height: 1.04rem;
+}
+
+.zhc-floor1 p {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+
+.zhc-floor1 h6 {
+  width: 2rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0.24rem;
+  top: 50%;
+  font-size: 0.24rem;
+  margin-top: -0.2rem;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main a {
+  display: block;
+  width: 3.38rem;
+  height: 4.31rem;
+  margin-bottom: 0.26rem;
+}
+
+main a img {
+  width: 100%;
+}

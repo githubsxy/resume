@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="../js/common.js"></script>
+	<link rel="stylesheet" href="../css/common.css" />
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.validate.js"></script>
+	<title>zhuce</title>
+</head>
+<style>
+	html,body{
+		width: 100%;
+		height: auto;
+	}
+	.return{
+		position: absolute;
+		top: 0.35rem;
+		width: 0.35rem;
+		left: 0.5rem;
+	}
+	.logo{
+		position: absolute;
+		right: 0.1rem;
+		top: 0.2rem;
+		width: 1.63rem;
+	}
+	.logo1{
+		margin-top: 10%;
+		margin-left: 33%;
+		width:2.25rem;
+	}
+	.wenzi1{
+		margin-left: -5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: -0.5rem;
+		display: block;
+	}
+	.wenzi2{
+		font-size: 12px;
+		margin-top: 10%;
+		text-align: center;
+		display: block;
+	}
+	.wenzi2 span{
+		font-weight: bold;
+	}
+	.dian{
+		font-size: 10px;
+		margin-left: 40%;
+		color: gray;
+		display: block;
+	}
+	.dian .dian1{
+		color: black;
+	}
+	.form{
+		width: 6.05rem;
+		height: 5rem;
+		margin-top: 5%;
+		margin-left: 10%;
+		border: 1px solid #d6d6d6;
+		border-top:2px solid #f32175;
+		border-radius: 8%;
+		z-index: 10;
+	}
+	form{
+		position: relative;
+		background: #fff;
+	}
+	.input1{
+		position: absolute;
+		left: 20%;
+		outline: none;
+		border: none;
+		top: 4rem;
+		width: 75%;
+		font-size: 10px;
+		color: black;
+	}
+	.input2{
+		position: relative;
+		top: 25px;
+		width: 75%;
+		left: 22%;
+		outline: none;
+		border: none;
+		height: 40px;
+		color: black;
+	}
+	.input3{
+		position: absolute;
+		top: 115px;
+		left: 22%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.input4{
+		position: absolute;
+		top: 160px;
+		left: 20%;
+		outline: none;
+		border: none;
+		color: black;
+	}
+	.yh{
+		width: 0.56rem;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+	.line{
+		position: absolute;
+		width: 5.37rem;
+		top: 225%;
+		left: 5%;
+	}
+	.pass{
+		position: absolute;
+		width: 0.56rem;
+		top: 65%;
+		left: 5%;
+	}
+	.pass1{
+		position: absolute;
+		width: 0.56rem;
+		top: 130%;
+		left: 5%;
+	}
+	.pass2{
+		position: absolute;
+		width: 0.56rem;
+		top: 190%;
+		left: 5%;
+	}
+	.pass3{
+		position: absolute;
+		width: 0.56rem;
+		top: 240%;
+		left: 5%;
+	}
+	.line1{
+		position: absolute;
+		width: 5.37rem;
+		top: 115%;
+		left: 5%;
+	}
+	.line2{
+		position: absolute;
+		width: 5.37rem;
+		top: 170%;
+		left: 5%;
+	}
+	.yhm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: -2%;
+		color: grey;
+	}
+	.mm{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 60%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm1{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 125%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm2{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 180%;
+		z-index: 5;
+		color: grey;
+	}
+	.mm3{
+		position: absolute;
+		font-size: 14px;
+		left: 22%;
+		top: 240%;
+		z-index: 5;
+		color: grey;
+	}
+	#cat{
+		margin-left: 10%;
+		bottom: 38%;
+	}
+	.re{
+		font-size: 12px;
+		color: gainsboro;
+		bottom: 38%;
+	}
+	.re1{
+		font-size: 12px;
+		color: gainsboro;
+		margin-left: 35%;
+		bottom: 38%;
+	}
+	.liji{
+		width: 2.75rem;
+		margin-top: 0.5rem;
+		margin-left: 2rem;
+		display: block;
+	}
+	.fang{
+		font-size: 14px;
+		margin-top: 5%;
+		margin-left: 33%;
+		display: block;
+	}
+	.lijidenglu1 img{
+		width: 1.4rem;
+		margin-bottom:-8.6rem;
+		margin-left:-4.5rem;
+		
+	}
+	.lijidenglu2 img{
+		width: 1.4rem;
+		top:20%;
+	}
+	.thr{
+		margin-left: 18%;
+	}
+	.three1,.three2,.three3{
+		width: 0.72rem;
+		margin-left: 0.25rem;
+	}
+	.zc{
+		width: 4.5rem;
+		margin-left: 0.8rem;
+		margin-top: 0.2rem;
+	}
+</style>
+<body>
+	<a href="denglu.html">
+		<img src="../img/lg/return.gif" alt="" class="return"/>
+	</a>
+	<img src="../img/lg/logo_01_11.png" alt="" class="logo1"/>
+	<span class="wenzi1">拾 × 忆</span>
+	<span class="wenzi2">answe outh <span>Seak to us of friend</span> needs answe</span>
+	<span class="dian"><span class="dian1">.</span>...................<span class="dian1">.</span></span>
+	<div class="form">
+		<form action="" id="aa">
+			<img src="../img/lg/zhuce_07.png" alt="" class="zc"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass"/>
+			<span class="mm">ACCOUNT</span>
+			<input type="text" class="input2" placeholder="您可以输入邮箱、手机号作为用户名" id="text"/>
+			<img src="../img/lg/line_07.png" alt="" class="line1"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass1"/>
+			<span class="mm1">MOBILE PHONE NO</span>
+			<input type="text" class="input3" placeholder="你可以输入您的手机号" id='text1'/>
+				<img src="../img/lg/line_07.png" alt="" class="line2"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass2"/>
+			<span class="mm2">PASSWORD</span>
+			<input type="password" class="input4" placeholder="请输入六位数的密码" id="pass"/>	
+			<img src="../img/lg/line_07.png" alt="" class="line"/>
+			<img src="../img/lg/kk_11.png" alt="" class="pass3"/>
+			<span class="mm3">PASSWORD</span>
+			<input type="password" class="input1" placeholder="请输入与上次相同的密码" id="pass1"/>
+		</form>
+	</div>
+	<a>
+		<img src="../img/lg/zhuceb_07.png" alt="" class='liji'/>
+	</a>
+<script>
+	$('#aa').validate({
+			 rules:{
+            zhanghao: {
+                required:true
+            },
+            mima:{
+                required:true,
+                minlength:5
+            }
+        },
+        messages:{
+            zhanghao:{
+                required:'请输入'
+            },
+            mima:{
+                required:'请输入密码',
+                minlength:'请输入长度大于5'
+            }
+        },
+        errorElement:'span',
+         errorPlacement:function (error,val) {
+            error.css('font-size','10px').insertAfter(val);
+            error.css('color','red').insertAfter(val);
+            error.css('position','absolute').insertAfter(val);
+            error.css('left','65%').insertAfter(val);
+            error.css('top','200%').insertAfter(val);
+            if($(val).next('b').length==0){
+//              $('<b>').html('错了').insertAfter(val);
+            }
+        },
+        success:function (val,val1) {
+            if($(val1).next('i').length==0){
+//              $('<i>').html('对了').insertAfter(val1);
+            }
+        }
+		})
+		
+		$("#aa").keyup(function(){
+			if($("#text").val()=='666666'||'666@qq'&&$("#text1").val()=='666666'&&$("#pass").val()==$("#pass1").val()){
+				console.log($("#text").val())
+				$('.liji')[0].addEventListener('touchstart',function(){
+						location.href='https://htmlpreview.github.io/?https://github.com/shiyi207/shiyi/blob/master/html/zhuce3.html'
+				})
+			}	
+  	})
+
+</script>
+</body>
+</html>
